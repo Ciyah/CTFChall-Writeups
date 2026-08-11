@@ -35,4 +35,4 @@ the recovered key repeatedly to the full ciphertext decrypts the flag.
 
 ## Flag
 
-`HTB{rep34t3d_x0r_n0t_s0_s3cur3}`
+`HTB{redacted}`

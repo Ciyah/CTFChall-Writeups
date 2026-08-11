@@ -29,7 +29,7 @@ WearRansom ransomware just got loose in our company. The SOC has traced the init
    that XOR to the static prefix gives:
 
    ```text
-   id:M8nHJyeR;int:3000;jit:500;flag:HTB{4n0th3R_d4Y_AnoThEr_pH1Sh};url:
+   id:M8nHJyeR;int:3000;jit:500;flag:HTB{redacted};url:
    ```
 
 ## Tools
@@ -49,4 +49,4 @@ WearRansom ransomware just got loose in our company. The SOC has traced the init
 
 ## Flag
 
-`HTB{4n0th3R_d4Y_AnoThEr_pH1Sh}`
+`HTB{redacted}`

@@ -42,4 +42,4 @@ root by re-encrypting the reconstructed plaintext modulo `N`.
 - Textbook low-exponent RSA is vulnerable when most of the plaintext is known.
 
 ## Flag
-HTB{48ff4d3a065e5a7d400a49cb5a4d2947}
+HTB{redacted}

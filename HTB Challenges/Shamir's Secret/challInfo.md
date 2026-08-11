@@ -47,4 +47,4 @@ modulus bits and recovered 1020 bits, far more than needed for the flag.
 
 ## Flag
 
-`HTB{c706f0db2e6e2c1489ea861257743f84}`
+`HTB{redacted}`

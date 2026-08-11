@@ -56,4 +56,4 @@ Our SOC team detected a suspicious activity on one of our redis instance. Despit
 
 ## Flag
 
-`HTB{r3d15_1n574nc35_c0uld_0p3n_n3w_un3xp3c73d_7r41l5!}`
+`HTB{redacted}`

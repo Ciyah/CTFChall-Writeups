@@ -42,4 +42,4 @@ Embark on the Dimensional Escape Quest where you wake up in a mysterious forest 
 
 ## Flag
 
-`HTB{D3v3l0p3r_t00l5_4r3_b35t__t0015_wh4t_d0_y0u_Th1nk??}`
+`HTB{redacted}`

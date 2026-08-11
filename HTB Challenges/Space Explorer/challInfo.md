@@ -47,4 +47,4 @@ un-normalized request to another parser. Parse once into a canonical schema,
 reject duplicate or ambiguous keys, and forward the validated representation.
 
 ## Flag
-`HTB{C0SM1C-BYP4SS}`
+`HTB{redacted}`

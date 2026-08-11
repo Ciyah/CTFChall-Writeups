@@ -52,4 +52,4 @@ reveals the flag.
 
 ## Flag
 
-`HTB{12896970d1a2a382e3a7cb9096783ad3}`
+`HTB{redacted}`

@@ -45,4 +45,4 @@ not expose algebraically related raw RSA operations.
 
 ## Flag
 
-`HTB{6be042ef6f3ef5602ff85e5d310a3216}`
+`HTB{redacted}`

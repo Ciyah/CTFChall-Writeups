@@ -30,4 +30,4 @@ Never use textbook RSA. Randomized padding such as RSA-OAEP prevents the same
 message from producing values vulnerable to this broadcast attack.
 
 ## Flag
-`HTB{68d51c2fcae49ddc0ae7ca0e86974011}`
+`HTB{redacted}`

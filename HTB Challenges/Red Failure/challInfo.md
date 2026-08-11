@@ -30,7 +30,7 @@ During a recent red team engagement one of our servers got compromised. Upon com
    for each DWORD, XOR it with the current key, then add the plaintext DWORD
    to the key.
 6. The decoded shellcode contains the persistence command:
-   `net user jmiller "HTB{00000ps_1_t0t4lly_f0rg0t_1t}" /add; net localgroup administrators jmiller /add`.
+   `net user jmiller "HTB{redacted}" /add; net localgroup administrators jmiller /add`.
 
 ## Tools
 
@@ -49,4 +49,4 @@ During a recent red team engagement one of our servers got compromised. Upon com
 
 ## Flag
 
-`HTB{00000ps_1_t0t4lly_f0rg0t_1t}`
+`HTB{redacted}`

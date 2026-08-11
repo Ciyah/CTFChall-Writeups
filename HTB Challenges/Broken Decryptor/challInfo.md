@@ -36,4 +36,4 @@ network round trip per sample.
 
 ## Flag
 
-`HTB{7bc51e5d8c323f3cf9a356eec1b151ea}`
+`HTB{redacted}`

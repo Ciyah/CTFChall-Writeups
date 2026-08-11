@@ -38,4 +38,4 @@ Our cybercrime unit has been investigating a well-known APT group for several mo
 - Hardcoded DES keys make recovered encrypted C2 logs straightforward to decrypt.
 
 ## Flag
-`HTB{570r1ng_53cr37_1n_m3m0ry_15_n07_g00d}`
+`HTB{redacted}`

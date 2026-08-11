@@ -48,4 +48,4 @@ layer (the attacker used Base64 to make the binary KeePass file safe to print).
 
 ## Flag
 
-`HTB{pr0tect_y0_shellZ}`
+`HTB{redacted}`

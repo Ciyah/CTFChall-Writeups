@@ -55,4 +55,4 @@ remediated.
 
 ## Flag
 
-`HTB{7tr3@t_hUntIng_4TW}`
+`HTB{redacted}`

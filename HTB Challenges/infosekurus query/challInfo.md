@@ -44,4 +44,4 @@ I warned my boss, Mr. Dam, that guarding his sensitive data with a custom authen
   randomness to a predictable value.
 
 ## Flag
-HTB{56674ba45f935b8d36cb8269f1de5dcd}
+HTB{redacted}

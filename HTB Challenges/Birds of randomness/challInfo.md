@@ -39,4 +39,4 @@ state to predict subsequent PRNG output.
 
 ## Flag
 
-`HTB{33700846ea0b4511122511d592e3212b}`
+`HTB{redacted}`

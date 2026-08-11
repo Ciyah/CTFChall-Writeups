@@ -42,4 +42,4 @@ prime-order subgroup.
 
 ## Flag
 
-`HTB{c439996e9b80663e9b52e1198678fe4f}`
+`HTB{redacted}`

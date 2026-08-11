@@ -29,4 +29,4 @@ from chosen plaintexts when the non-linearity is public and independently
 invertible per coordinate.
 
 ## Flag
-HTB{c4dbdd1ad917d8f11a979493ffebdd36}
+HTB{redacted}

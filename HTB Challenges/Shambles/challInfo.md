@@ -36,4 +36,4 @@ split its card number and balance, then withdraw the full balance.
 
 ## Flag
 
-`HTB{522c0a35508c32a19587479c081cf928}`
+`HTB{redacted}`

@@ -34,4 +34,4 @@ same keystream.
 
 ## Flag
 
-`HTB{und3r57AnD1n9_57R3aM_C1PH3R5_15_51mPl3_a5_7Ha7}`
+`HTB{redacted}`

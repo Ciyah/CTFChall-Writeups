@@ -48,4 +48,4 @@ returns `flag.pdf`.
 
 ## Flag
 
-`HTB{l1ght_w31ght_b4b3h!}`
+`HTB{redacted}`

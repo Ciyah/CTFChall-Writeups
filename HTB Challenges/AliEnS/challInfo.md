@@ -42,4 +42,4 @@ reveals the next character. Repeat until `}`.
 
 ## Flag
 
-`HTB{39b1e545cddb21a21c4aa7e58a89df01}`
+`HTB{redacted}`

@@ -44,4 +44,4 @@ entries.
 
 ## Flag
 
-`HTB{Us3rL4nd_R00tK1t_R3m0v3dd!}`
+`HTB{redacted}`

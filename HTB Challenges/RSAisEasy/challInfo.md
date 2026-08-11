@@ -36,4 +36,4 @@ second modulus can still expose that shared factor through a GCD.
 
 ## Flag
 
-`HTB{1_m1ght_h4v3_m3ss3d_uP_jU$t_4_l1ttle_b1t?}`
+`HTB{redacted}`

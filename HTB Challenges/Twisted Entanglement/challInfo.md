@@ -40,4 +40,4 @@ the flag.  The complete exploit is in `solve.py`.
 - A deterministic PRNG must not select secret quantum measurement bases.
 
 ## Flag
-HTB{7f7f4b4cc80554e5c96e21c369a4a6dc}
+HTB{redacted}

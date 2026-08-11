@@ -25,7 +25,7 @@ Our SOC has identified numerous phishing emails coming in claiming to have a doc
    obfuscated PowerShell command.
 4. Base64-decoded the inner PowerShell and resolved its format strings. It:
    - creates the filename
-     `HTB{msDt_4s_A_pr0toC0l_h4nDl3r...sE3Ms_b4D}.exe`;
+     `HTB{redacted}.exe`;
    - downloads `https://automation.diagnostic.htb/2/n.exe` to
      `C:\Windows\Tasks\<filename>`;
    - executes the downloaded file.
@@ -49,4 +49,4 @@ Our SOC has identified numerous phishing emails coming in claiming to have a doc
 
 ## Flag
 
-`HTB{msDt_4s_A_pr0toC0l_h4nDl3r...sE3Ms_b4D}`
+`HTB{redacted}`

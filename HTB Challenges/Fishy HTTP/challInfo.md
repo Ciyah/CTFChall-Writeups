@@ -44,4 +44,4 @@ when a challenge states that a flag is split.
 
 ## Flag
 
-`HTB{Th4ts_d07n37_h77P_s73417hy_revSHELL}`
+`HTB{redacted}`

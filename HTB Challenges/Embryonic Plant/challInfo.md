@@ -32,4 +32,4 @@ and increment; a gcd of the resulting integer relations can recover the hidden
 modulus.
 
 ## Flag
-`HTB{0c8fe20bab8b35c1c7067c314a2442e4}`
+`HTB{redacted}`

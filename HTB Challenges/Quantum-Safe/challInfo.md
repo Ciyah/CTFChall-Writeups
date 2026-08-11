@@ -38,4 +38,4 @@ noise bounds give a strong test for the correct candidate.
 
 ## Flag
 
-`HTB{r3duc1nG_tH3_l4tTicE_l1kE_n0b0dY's_pr0bl3M}`
+`HTB{redacted}`

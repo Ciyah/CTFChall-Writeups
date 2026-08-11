@@ -32,4 +32,4 @@ are won by the last (highest-numbered) player.
 
 ## Flag
 
-`HTB{r0LL1ng-1n-t43_D33P-b0t_n3T-cRe4t10n}`
+`HTB{redacted}`
