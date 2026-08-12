@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bobby's Bistro</title>
+	<link rel="stylesheet" href="/static/css/globals.css">
+</head>
+<body>
+	<header class="terminal-nav">
+		<div class="terminal-logo" style="margin-right: 1rem;">
+			<div class="logo terminal-prompt">
+				<a href="/" style="color: white;">Bobby's Bistro</a>
+			</div>
+		</div>
+		<nav class="terminal-menu">
+			<ul>
+				<li><a href="/" class="menu-item">Home</a></li>
+				<li><a href="/register" class="menu-item">Register</a></li>
+				<li><a href="/login" class="menu-item">Login</a></li>
+				<li><a href="/chat" class="menu-item">Chat</a></li>
+				<li><a href="/announcements" class="menu-item">Announcements</a></li>
+				<li><a href="/logout" class="menu-item">Logout</a></li>
+				<li><a href="/profile" class="menu-item">Profile</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="container" style="max-width: 700px; margin: 3rem auto; text-align: center;">
+		<h1>Announcement</h1>
+
+		<!-- Display the announcement text -->
+		<div class="terminal-card terminal-alert terminal-alert-primary" style="margin-top: 2rem; padding: 2rem;">
+			<p class="announcement" style="white-space: pre-wrap;"></p>
+		</div>
+
+		<!-- Back button -->
+		<a href="/announcements" class="btn btn-default" style="margin-top: 1.5rem; display: inline-block;">← Back to Announcements</a>
+	</main>
+
+	<script>
+		const params = new URLSearchParams(window.location.search);
+		const announcement = params.get("q");
+		const announcementEl = document.querySelector(".announcement");
+
+		if (announcement && announcementEl) {
+			announcementEl.textContent = announcement;
+		}
+	</script>
+</body>
+</html>
+

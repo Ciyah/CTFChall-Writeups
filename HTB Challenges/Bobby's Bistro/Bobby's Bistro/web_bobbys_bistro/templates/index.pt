@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Bobby's Bistro</title>
+		<!-- <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.4/dist/terminal.min.css" /> -->
+		<link rel="stylesheet" href="/static/css/globals.css">
+		<style>
+			.content {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				height: 90vh; /* fills the screen vertically */
+			}
+		</style>
+	</head>
+	<body class="terminal">
+		<header class="terminal-nav">
+      <div class="terminal-logo" style="margin-right: 1rem; font-size: 30px;">
+        <div class="logo terminal-prompt"><a href="/" style="color: white;">Bobby's Bistro</a></div>
+      </div>
+
+      <nav class="terminal-menu">
+        <ul>
+          <li><a href="/" class="menu-item">Home</a></li>
+          <li><a href="/register" class="menu-item">Register</a></li>
+					<li><a href="/login" class="menu-item">Login</a></li>
+          <li><a href="/chat" class="menu-item">Chat</a></li>
+					<li><a href="/logout" class="menu-item">Logout</a></li>
+        </ul>
+      </nav>
+    </header>
+		<hr style="margin: 0px;">
+		<div class="content">
+			<h1 style="font-size: 30px;">Bobby's Bistro</h1>
+			<p>Do everything, with minimal data shared (don’t worry — we don’t ask for any data to store)</p>
+		</div>
+	</body>
+</html>
+

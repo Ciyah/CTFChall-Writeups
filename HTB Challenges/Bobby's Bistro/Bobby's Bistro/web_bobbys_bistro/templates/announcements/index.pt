@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bobby's Bistro</title>
+	<link rel="stylesheet" href="/static/css/globals.css">
+</head>
+<body>
+	<header class="terminal-nav">
+		<div class="terminal-logo" style="margin-right: 1rem;">
+			<div class="logo terminal-prompt">
+				<a href="/" style="color: white;">Bobby's Bistro</a>
+			</div>
+		</div>
+		<nav class="terminal-menu">
+			<ul>
+				<li><a href="/" class="menu-item">Home</a></li>
+				<li><a href="/register" class="menu-item">Register</a></li>
+				<li><a href="/login" class="menu-item">Login</a></li>
+				<li><a href="/chat" class="menu-item">Chat</a></li>
+				<li><a href="/announcements" class="menu-item">Announcements</a></li>
+				<li><a href="/logout" class="menu-item">Logout</a></li>
+				<li><a href="/profile" class="menu-item">Profile</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="container" style="max-width: 800px; margin: 2rem auto;">
+		<h1 style="text-align: center;">Announcements</h1>
+
+		<div class="announcements" tal:repeat="i announcements">
+			<div class="terminal-alert terminal-alert-primary" 
+				style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; padding: 0.75rem 1rem;">
+				
+				<div class="announcement-left">
+					<span class="sender" style="font-weight: bold;">${i.sender}:</span>
+					<a href="#" class="terminal-link" data-announcement="${i.content}">
+						${i.title}
+					</a>
+				</div>
+
+				<span class="timestamp" 
+					style="color: var(--secondary-color); opacity: 0.6; font-size: 0.9em; white-space: nowrap;">
+					${i.timestamp}
+				</span>
+			</div>
+		</div>
+	</main>
+
+	<script src="/static/js/announcements_view.js"></script>
+</body>
+</html>
+
