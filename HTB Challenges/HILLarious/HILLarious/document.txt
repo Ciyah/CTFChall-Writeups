@@ -1,0 +1,11 @@
+Blackink-corp — Meeting Notes
+
+Date : 2026-04-01
+Attendees : Dev team, Security team
+
+Points discussed :
+  1. New authentication module — 80% complete
+  2. Security audit scheduled for next week
+  3. Server migration to new datacenter pending
+
+Next meeting : 2026-04-22
