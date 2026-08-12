@@ -1,0 +1,387 @@
+GDRE Tools v2.6.3
+Kali GNU/Linux Rolling 2026.1, headless
+Opening file: ~/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-0144fd5b68da2b1b9f347d3acff86799-pause_menu.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+WARNING: Can't open encrypted files in PCK!
+   at: try_open_pack (modules/gdsdecomp/utility/gdre_packed_source.cpp:515)
+WARNING: Can't decrypt 29 encrypted files in PCK!
+   at: try_open_pack (modules/gdsdecomp/utility/gdre_packed_source.cpp:525)
+Guessing bytecode revision from engine version: 4.1.1 (rev 0x77af6ca)
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-19246414aa9fb561ced4b8dce477acec-default_bus_layout.res" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+ERROR: Cannot open file 'res://.godot/exported/133200997/export-19246414aa9fb561ced4b8dce477acec-default_bus_layout.res'.
+   at: get_resource_info (modules/gdsdecomp/compat/resource_compat_binary.cpp:3177)
+ERROR: Could not load resource info from res://.godot/exported/133200997/export-19246414aa9fb561ced4b8dce477acec-default_bus_layout.res
+   at: get_resource_info (modules/gdsdecomp/utility/import_info.cpp:301)
+ERROR: Could not load resource info from remap path res://.godot/exported/133200997/export-19246414aa9fb561ced4b8dce477acec-default_bus_layout.res
+   at: _load (modules/gdsdecomp/utility/import_info.cpp:846)
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-7a7ef7eb2aa2d13d5f77526465e49dfc-enemy.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+ERROR: Cannot open file 'res://.godot/exported/133200997/export-7a7ef7eb2aa2d13d5f77526465e49dfc-enemy.scn'.
+   at: get_resource_info (modules/gdsdecomp/compat/resource_compat_binary.cpp:3177)
+ERROR: Could not load resource info from res://.godot/exported/133200997/export-7a7ef7eb2aa2d13d5f77526465e49dfc-enemy.scn
+   at: get_resource_info (modules/gdsdecomp/utility/import_info.cpp:301)
+ERROR: Could not load resource info from remap path res://.godot/exported/133200997/export-7a7ef7eb2aa2d13d5f77526465e49dfc-enemy.scn
+   at: _load (modules/gdsdecomp/utility/import_info.cpp:846)
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-5a17f01fb2432f51b17a4489a57742b5-game_singleplayer.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+ERROR: Cannot open file 'res://.godot/exported/133200997/export-5a17f01fb2432f51b17a4489a57742b5-game_singleplayer.scn'.
+   at: get_resource_info (modules/gdsdecomp/compat/resource_compat_binary.cpp:3177)
+ERROR: Could not load resource info from res://.godot/exported/133200997/export-5a17f01fb2432f51b17a4489a57742b5-game_singleplayer.scn
+   at: get_resource_info (modules/gdsdecomp/utility/import_info.cpp:301)
+ERROR: Could not load resource info from remap path res://.godot/exported/133200997/export-5a17f01fb2432f51b17a4489a57742b5-game_singleplayer.scn
+   at: _load (modules/gdsdecomp/utility/import_info.cpp:846)
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-447487991c30c66bd6861d47899ac5b4-game_splitscreen.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+ERROR: Cannot open file 'res://.godot/exported/133200997/export-447487991c30c66bd6861d47899ac5b4-game_splitscreen.scn'.
+   at: get_resource_info (modules/gdsdecomp/compat/resource_compat_binary.cpp:3177)
+ERROR: Could not load resource info from res://.godot/exported/133200997/export-447487991c30c66bd6861d47899ac5b4-game_splitscreen.scn
+   at: get_resource_info (modules/gdsdecomp/utility/import_info.cpp:301)
+ERROR: Could not load resource info from remap path res://.godot/exported/133200997/export-447487991c30c66bd6861d47899ac5b4-game_splitscreen.scn
+   at: _load (modules/gdsdecomp/utility/import_info.cpp:846)
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-ff7a3e44be70b9087acd06591c2a4ad9-coins_counter.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+ERROR: Cannot open file 'res://.godot/exported/133200997/export-ff7a3e44be70b9087acd06591c2a4ad9-coins_counter.scn'.
+   at: get_resource_info (modules/gdsdecomp/compat/resource_compat_binary.cpp:3177)
+ERROR: Could not load resource info from res://.godot/exported/133200997/export-ff7a3e44be70b9087acd06591c2a4ad9-coins_counter.scn
+   at: get_resource_info (modules/gdsdecomp/utility/import_info.cpp:301)
+ERROR: Could not load resource info from remap path res://.godot/exported/133200997/export-ff7a3e44be70b9087acd06591c2a4ad9-coins_counter.scn
+   at: _load (modules/gdsdecomp/utility/import_info.cpp:846)
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-e1892e20df52cd1083edd4ee943a36ab-kenney_mini_square.res" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+ERROR: Cannot open file 'res://.godot/exported/133200997/export-e1892e20df52cd1083edd4ee943a36ab-kenney_mini_square.res'.
+   at: get_resource_info (modules/gdsdecomp/compat/resource_compat_binary.cpp:3177)
+ERROR: Could not load resource info from res://.godot/exported/133200997/export-e1892e20df52cd1083edd4ee943a36ab-kenney_mini_square.res
+   at: get_resource_info (modules/gdsdecomp/utility/import_info.cpp:301)
+ERROR: Could not load resource info from remap path res://.godot/exported/133200997/export-e1892e20df52cd1083edd4ee943a36ab-kenney_mini_square.res
+   at: _load (modules/gdsdecomp/utility/import_info.cpp:846)
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-0144fd5b68da2b1b9f347d3acff86799-pause_menu.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+ERROR: Cannot open file 'res://.godot/exported/133200997/export-0144fd5b68da2b1b9f347d3acff86799-pause_menu.scn'.
+   at: get_resource_info (modules/gdsdecomp/compat/resource_compat_binary.cpp:3177)
+ERROR: Could not load resource info from res://.godot/exported/133200997/export-0144fd5b68da2b1b9f347d3acff86799-pause_menu.scn
+   at: get_resource_info (modules/gdsdecomp/utility/import_info.cpp:301)
+ERROR: Could not load resource info from remap path res://.godot/exported/133200997/export-0144fd5b68da2b1b9f347d3acff86799-pause_menu.scn
+   at: _load (modules/gdsdecomp/utility/import_info.cpp:846)
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-1b7c95026d7d05a7ed4ffdf28d953604-pause_menu_singleplayer.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+ERROR: Cannot open file 'res://.godot/exported/133200997/export-1b7c95026d7d05a7ed4ffdf28d953604-pause_menu_singleplayer.scn'.
+   at: get_resource_info (modules/gdsdecomp/compat/resource_compat_binary.cpp:3177)
+ERROR: Could not load resource info from res://.godot/exported/133200997/export-1b7c95026d7d05a7ed4ffdf28d953604-pause_menu_singleplayer.scn
+   at: get_resource_info (modules/gdsdecomp/utility/import_info.cpp:301)
+ERROR: Could not load resource info from remap path res://.godot/exported/133200997/export-1b7c95026d7d05a7ed4ffdf28d953604-pause_menu_singleplayer.scn
+   at: _load (modules/gdsdecomp/utility/import_info.cpp:846)
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-3310d8bfc90af9ce066e307a685a4edf-pause_menu_splitscreen.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+ERROR: Cannot open file 'res://.godot/exported/133200997/export-3310d8bfc90af9ce066e307a685a4edf-pause_menu_splitscreen.scn'.
+   at: get_resource_info (modules/gdsdecomp/compat/resource_compat_binary.cpp:3177)
+ERROR: Could not load resource info from res://.godot/exported/133200997/export-3310d8bfc90af9ce066e307a685a4edf-pause_menu_splitscreen.scn
+   at: get_resource_info (modules/gdsdecomp/utility/import_info.cpp:301)
+ERROR: Could not load resource info from remap path res://.godot/exported/133200997/export-3310d8bfc90af9ce066e307a685a4edf-pause_menu_splitscreen.scn
+   at: _load (modules/gdsdecomp/utility/import_info.cpp:846)
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-7214232907ea3685efc1109bb32a2a17-theme.res" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+ERROR: Cannot open file 'res://.godot/exported/133200997/export-7214232907ea3685efc1109bb32a2a17-theme.res'.
+   at: get_resource_info (modules/gdsdecomp/compat/resource_compat_binary.cpp:3177)
+ERROR: Could not load resource info from res://.godot/exported/133200997/export-7214232907ea3685efc1109bb32a2a17-theme.res
+   at: get_resource_info (modules/gdsdecomp/utility/import_info.cpp:301)
+ERROR: Could not load resource info from remap path res://.godot/exported/133200997/export-7214232907ea3685efc1109bb32a2a17-theme.res
+   at: _load (modules/gdsdecomp/utility/import_info.cpp:846)
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-cc48c384f7d832504eca78e063a40f51-parallax_background.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+ERROR: Cannot open file 'res://.godot/exported/133200997/export-cc48c384f7d832504eca78e063a40f51-parallax_background.scn'.
+   at: get_resource_info (modules/gdsdecomp/compat/resource_compat_binary.cpp:3177)
+ERROR: Could not load resource info from res://.godot/exported/133200997/export-cc48c384f7d832504eca78e063a40f51-parallax_background.scn
+   at: get_resource_info (modules/gdsdecomp/utility/import_info.cpp:301)
+ERROR: Could not load resource info from remap path res://.godot/exported/133200997/export-cc48c384f7d832504eca78e063a40f51-parallax_background.scn
+   at: _load (modules/gdsdecomp/utility/import_info.cpp:846)
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-b456f4f6ccab8612403f3d93f345b967-coin.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+ERROR: Cannot open file 'res://.godot/exported/133200997/export-b456f4f6ccab8612403f3d93f345b967-coin.scn'.
+   at: get_resource_info (modules/gdsdecomp/compat/resource_compat_binary.cpp:3177)
+ERROR: Could not load resource info from res://.godot/exported/133200997/export-b456f4f6ccab8612403f3d93f345b967-coin.scn
+   at: get_resource_info (modules/gdsdecomp/utility/import_info.cpp:301)
+ERROR: Could not load resource info from remap path res://.godot/exported/133200997/export-b456f4f6ccab8612403f3d93f345b967-coin.scn
+   at: _load (modules/gdsdecomp/utility/import_info.cpp:846)
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-6dcf1f1cf49f4ecbd395fe92f3dd7400-level.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+ERROR: Cannot open file 'res://.godot/exported/133200997/export-6dcf1f1cf49f4ecbd395fe92f3dd7400-level.scn'.
+   at: get_resource_info (modules/gdsdecomp/compat/resource_compat_binary.cpp:3177)
+ERROR: Could not load resource info from res://.godot/exported/133200997/export-6dcf1f1cf49f4ecbd395fe92f3dd7400-level.scn
+   at: get_resource_info (modules/gdsdecomp/utility/import_info.cpp:301)
+ERROR: Could not load resource info from remap path res://.godot/exported/133200997/export-6dcf1f1cf49f4ecbd395fe92f3dd7400-level.scn
+   at: _load (modules/gdsdecomp/utility/import_info.cpp:846)
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-539ffa21922e0db4e7454f2ef9530d56-platform.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+ERROR: Cannot open file 'res://.godot/exported/133200997/export-539ffa21922e0db4e7454f2ef9530d56-platform.scn'.
+   at: get_resource_info (modules/gdsdecomp/compat/resource_compat_binary.cpp:3177)
+ERROR: Could not load resource info from res://.godot/exported/133200997/export-539ffa21922e0db4e7454f2ef9530d56-platform.scn
+   at: get_resource_info (modules/gdsdecomp/utility/import_info.cpp:301)
+ERROR: Could not load resource info from remap path res://.godot/exported/133200997/export-539ffa21922e0db4e7454f2ef9530d56-platform.scn
+   at: _load (modules/gdsdecomp/utility/import_info.cpp:846)
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-71c6f5e3ce609f510b058136dc9fa57c-wind_sway.res" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+ERROR: Cannot open file 'res://.godot/exported/133200997/export-71c6f5e3ce609f510b058136dc9fa57c-wind_sway.res'.
+   at: get_resource_info (modules/gdsdecomp/compat/resource_compat_binary.cpp:3177)
+ERROR: Could not load resource info from res://.godot/exported/133200997/export-71c6f5e3ce609f510b058136dc9fa57c-wind_sway.res
+   at: get_resource_info (modules/gdsdecomp/utility/import_info.cpp:301)
+ERROR: Could not load resource info from remap path res://.godot/exported/133200997/export-71c6f5e3ce609f510b058136dc9fa57c-wind_sway.res
+   at: _load (modules/gdsdecomp/utility/import_info.cpp:846)
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-c8d3b0a96d4e69ad69204f7e5f960151-tileset.res" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+ERROR: Cannot open file 'res://.godot/exported/133200997/export-c8d3b0a96d4e69ad69204f7e5f960151-tileset.res'.
+   at: get_resource_info (modules/gdsdecomp/compat/resource_compat_binary.cpp:3177)
+ERROR: Could not load resource info from res://.godot/exported/133200997/export-c8d3b0a96d4e69ad69204f7e5f960151-tileset.res
+   at: get_resource_info (modules/gdsdecomp/utility/import_info.cpp:301)
+ERROR: Could not load resource info from remap path res://.godot/exported/133200997/export-c8d3b0a96d4e69ad69204f7e5f960151-tileset.res
+   at: _load (modules/gdsdecomp/utility/import_info.cpp:846)
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-bb6f876339c046e4ad1ca955812acf1e-music.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+ERROR: Cannot open file 'res://.godot/exported/133200997/export-bb6f876339c046e4ad1ca955812acf1e-music.scn'.
+   at: get_resource_info (modules/gdsdecomp/compat/resource_compat_binary.cpp:3177)
+ERROR: Could not load resource info from res://.godot/exported/133200997/export-bb6f876339c046e4ad1ca955812acf1e-music.scn
+   at: get_resource_info (modules/gdsdecomp/utility/import_info.cpp:301)
+ERROR: Could not load resource info from remap path res://.godot/exported/133200997/export-bb6f876339c046e4ad1ca955812acf1e-music.scn
+   at: _load (modules/gdsdecomp/utility/import_info.cpp:846)
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-ccbd35e6f72058f9e5d89a0d1cb3e691-bullet.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+ERROR: Cannot open file 'res://.godot/exported/133200997/export-ccbd35e6f72058f9e5d89a0d1cb3e691-bullet.scn'.
+   at: get_resource_info (modules/gdsdecomp/compat/resource_compat_binary.cpp:3177)
+ERROR: Could not load resource info from res://.godot/exported/133200997/export-ccbd35e6f72058f9e5d89a0d1cb3e691-bullet.scn
+   at: get_resource_info (modules/gdsdecomp/utility/import_info.cpp:301)
+ERROR: Could not load resource info from remap path res://.godot/exported/133200997/export-ccbd35e6f72058f9e5d89a0d1cb3e691-bullet.scn
+   at: _load (modules/gdsdecomp/utility/import_info.cpp:846)
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-753d15e03e0182f9d550ac833b42bb41-player.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+ERROR: Cannot open file 'res://.godot/exported/133200997/export-753d15e03e0182f9d550ac833b42bb41-player.scn'.
+   at: get_resource_info (modules/gdsdecomp/compat/resource_compat_binary.cpp:3177)
+ERROR: Could not load resource info from res://.godot/exported/133200997/export-753d15e03e0182f9d550ac833b42bb41-player.scn
+   at: get_resource_info (modules/gdsdecomp/utility/import_info.cpp:301)
+ERROR: Could not load resource info from remap path res://.godot/exported/133200997/export-753d15e03e0182f9d550ac833b42bb41-player.scn
+   at: _load (modules/gdsdecomp/utility/import_info.cpp:846)
+Loaded 37 imported files
+Detected Engine Version: 4.1.1
+Detected Bytecode Revision: 4.3.0-stable (77af6ca)
+Successfully loaded PCK!
+Version: 4.1.1
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-0144fd5b68da2b1b9f347d3acff86799-pause_menu.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://.godot/exported/133200997/export-0144fd5b68da2b1b9f347d3acff86799-pause_menu.scn
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-19246414aa9fb561ced4b8dce477acec-default_bus_layout.res" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://.godot/exported/133200997/export-19246414aa9fb561ced4b8dce477acec-default_bus_layout.res
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-1b7c95026d7d05a7ed4ffdf28d953604-pause_menu_singleplayer.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://.godot/exported/133200997/export-1b7c95026d7d05a7ed4ffdf28d953604-pause_menu_singleplayer.scn
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-3310d8bfc90af9ce066e307a685a4edf-pause_menu_splitscreen.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://.godot/exported/133200997/export-3310d8bfc90af9ce066e307a685a4edf-pause_menu_splitscreen.scn
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-447487991c30c66bd6861d47899ac5b4-game_splitscreen.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://.godot/exported/133200997/export-447487991c30c66bd6861d47899ac5b4-game_splitscreen.scn
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-539ffa21922e0db4e7454f2ef9530d56-platform.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://.godot/exported/133200997/export-539ffa21922e0db4e7454f2ef9530d56-platform.scn
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-5a17f01fb2432f51b17a4489a57742b5-game_singleplayer.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://.godot/exported/133200997/export-5a17f01fb2432f51b17a4489a57742b5-game_singleplayer.scn
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-6dcf1f1cf49f4ecbd395fe92f3dd7400-level.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://.godot/exported/133200997/export-6dcf1f1cf49f4ecbd395fe92f3dd7400-level.scn
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-71c6f5e3ce609f510b058136dc9fa57c-wind_sway.res" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://.godot/exported/133200997/export-71c6f5e3ce609f510b058136dc9fa57c-wind_sway.res
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-7214232907ea3685efc1109bb32a2a17-theme.res" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://.godot/exported/133200997/export-7214232907ea3685efc1109bb32a2a17-theme.res
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-753d15e03e0182f9d550ac833b42bb41-player.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://.godot/exported/133200997/export-753d15e03e0182f9d550ac833b42bb41-player.scn
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-7a7ef7eb2aa2d13d5f77526465e49dfc-enemy.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://.godot/exported/133200997/export-7a7ef7eb2aa2d13d5f77526465e49dfc-enemy.scn
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-b456f4f6ccab8612403f3d93f345b967-coin.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://.godot/exported/133200997/export-b456f4f6ccab8612403f3d93f345b967-coin.scn
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-bb6f876339c046e4ad1ca955812acf1e-music.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://.godot/exported/133200997/export-bb6f876339c046e4ad1ca955812acf1e-music.scn
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-c8d3b0a96d4e69ad69204f7e5f960151-tileset.res" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://.godot/exported/133200997/export-c8d3b0a96d4e69ad69204f7e5f960151-tileset.res
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-cc48c384f7d832504eca78e063a40f51-parallax_background.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://.godot/exported/133200997/export-cc48c384f7d832504eca78e063a40f51-parallax_background.scn
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-ccbd35e6f72058f9e5d89a0d1cb3e691-bullet.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://.godot/exported/133200997/export-ccbd35e6f72058f9e5d89a0d1cb3e691-bullet.scn
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-e1892e20df52cd1083edd4ee943a36ab-kenney_mini_square.res" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://.godot/exported/133200997/export-e1892e20df52cd1083edd4ee943a36ab-kenney_mini_square.res
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://.godot/exported/133200997/export-ff7a3e44be70b9087acd06591c2a4ad9-coins_counter.scn" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://.godot/exported/133200997/export-ff7a3e44be70b9087acd06591c2a4ad9-coins_counter.scn
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://enemy/enemy.gd" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://enemy/enemy.gd
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://game.gd" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://game.gd
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://game_splitscreen.gd" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://game_splitscreen.gd
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://gui/coins_counter.gd" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://gui/coins_counter.gd
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://gui/pause_menu.gd" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://gui/pause_menu.gd
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://level/coin.gd" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://level/coin.gd
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://level/level.gd" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://level/level.gd
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://player/bullet.gd" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://player/bullet.gd
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://player/gun.gd" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://player/gun.gd
+ERROR: The MD5 sum of the decrypted file does not match the expected value. It could be that the file is corrupt, or that the provided decryption key is invalid.
+   at: open_and_parse (core/io/file_access_encrypted.cpp:113)
+ERROR: Can't open encrypted pack-referenced file "res://player/player.gd" from pack "/home/ciyah/Desktop/HTBLabs/GameLoader/GameLoader/rev_gameloader/Platformer 2D.pck" due to error "File corrupt".
+   at: FileAccessPack (core/io/file_access_pack.cpp:580)
+Checksum failed for res://player/player.gd
+Checksum failed for res://.godot/exported/133200997/export-0144fd5b68da2b1b9f347d3acff86799-pause_menu.scn
+Checksum failed for res://.godot/exported/133200997/export-19246414aa9fb561ced4b8dce477acec-default_bus_layout.res
+Checksum failed for res://.godot/exported/133200997/export-1b7c95026d7d05a7ed4ffdf28d953604-pause_menu_singleplayer.scn
+Checksum failed for res://.godot/exported/133200997/export-3310d8bfc90af9ce066e307a685a4edf-pause_menu_splitscreen.scn
+Checksum failed for res://.godot/exported/133200997/export-447487991c30c66bd6861d47899ac5b4-game_splitscreen.scn
+Checksum failed for res://.godot/exported/133200997/export-539ffa21922e0db4e7454f2ef9530d56-platform.scn
+Checksum failed for res://.godot/exported/133200997/export-5a17f01fb2432f51b17a4489a57742b5-game_singleplayer.scn
+Checksum failed for res://.godot/exported/133200997/export-6dcf1f1cf49f4ecbd395fe92f3dd7400-level.scn
+Checksum failed for res://.godot/exported/133200997/export-71c6f5e3ce609f510b058136dc9fa57c-wind_sway.res
+Checksum failed for res://.godot/exported/133200997/export-7214232907ea3685efc1109bb32a2a17-theme.res
+Checksum failed for res://.godot/exported/133200997/export-753d15e03e0182f9d550ac833b42bb41-player.scn
+Checksum failed for res://.godot/exported/133200997/export-7a7ef7eb2aa2d13d5f77526465e49dfc-enemy.scn
+Checksum failed for res://.godot/exported/133200997/export-b456f4f6ccab8612403f3d93f345b967-coin.scn
+Checksum failed for res://.godot/exported/133200997/export-bb6f876339c046e4ad1ca955812acf1e-music.scn
+Checksum failed for res://.godot/exported/133200997/export-c8d3b0a96d4e69ad69204f7e5f960151-tileset.res
+Checksum failed for res://.godot/exported/133200997/export-cc48c384f7d832504eca78e063a40f51-parallax_background.scn
+Checksum failed for res://.godot/exported/133200997/export-ccbd35e6f72058f9e5d89a0d1cb3e691-bullet.scn
+Checksum failed for res://.godot/exported/133200997/export-e1892e20df52cd1083edd4ee943a36ab-kenney_mini_square.res
+Checksum failed for res://.godot/exported/133200997/export-ff7a3e44be70b9087acd06591c2a4ad9-coins_counter.scn
+Checksum failed for res://enemy/enemy.gd
+Checksum failed for res://game.gd
+Checksum failed for res://game_splitscreen.gd
+Checksum failed for res://gui/coins_counter.gd
+Checksum failed for res://gui/pause_menu.gd
+Checksum failed for res://level/coin.gd
+Checksum failed for res://level/level.gd
+Checksum failed for res://player/bullet.gd
+Checksum failed for res://player/gun.gd
+Checksum failed for res://player/player.gd
+At least one error was detected while verifying files in pack!
+
+Encryption error detected, please check your encryption key and try again.
+
+MD5 checksum failed, not proceeding...
+Error: failed to extract PAK file, not exporting assets
