@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Postcard from {{ sender }}</title>
+  <link rel="stylesheet" href="/css/app.css" />
+</head>
+
+<body class="min-h-screen bg-slate flex flex-col items-center justify-center p-4 md:p-8 font-sans overflow-x-hidden">
+
+  <script nonce={{ nonce }}>let secret = "{{ secret }}";</script>
+
+  <div class="w-full max-w-2xl card-container perspective">
+    <div id="postcard" class="card-inner group">
+
+      <div class="card-front p-8 md:p-12 flex flex-col justify-between border border-void/5">
+        <div class="absolute top-8 right-8 w-20 h-20 opacity-80 pointer-events-none rotate-6">
+          <img src="/img/stamp-front.jpg" class="w-full h-full object-contain" alt="Post stamp front" />
+        </div>
+
+        <div class="space-y-6 pr-12 md:pr-16">
+          <div class="w-12 h-[2px] bg-void/10"></div>
+          <p class="font-hand text-3xl md:text-4xl text-void/80 leading-snug">
+            {{ message }}
+          </p>
+        </div>
+        <div class="flex items-center justify-between">
+          <p class="font-hand text-2xl text-accent">— {{ sender }}</p>
+          <div class="text-[10px] font-black uppercase tracking-[0.3em] text-void/20">Carta / No. {{ nonce }}</div>
+        </div>
+      </div>
+
+      <div
+        class="card-back p-8 md:p-12 grid grid-cols-1 md:grid-cols-2 bg-[#fdfdfd] border border-void/5 border-l-8 border-gold/10">
+
+        <div
+          class="absolute top-6 right-6 w-20 h-24 rotate-6 group-hover:rotate-12 transition-transform duration-500 drop-shadow-sm border-[3px] border-white p-1 bg-white shadow-sm overflow-hidden">
+          <img src="/img/stamp-back.png" class="w-full h-full object-cover" alt="Post stamp" />
+        </div>
+
+        <div
+          class="pr-0 md:pr-8 border-b md:border-b-0 md:border-r border-void/5 flex flex-col justify-between pb-6 md:pb-0">
+          <div class="space-y-4">
+            <div class="text-[10px] font-black uppercase tracking-[0.2em] text-gold">Secret P.S.</div>
+            <p id="secretText" class="font-hand text-2xl text-void/70"></p>
+          </div>
+          <p class="text-[10px] font-bold text-void/20 italic">"Sent with care."</p>
+        </div>
+        <div class="pl-0 md:pl-8 flex flex-col justify-center gap-6 pt-6 md:pt-0">
+          <div class="space-y-1">
+            <div class="w-full h-[1px] bg-void/10"></div>
+            <div class="py-2">
+              <p class="text-xs font-bold text-void/40 uppercase tracking-widest mb-1">To</p>
+              <p class="text-xl md:text-2xl font-black tracking-tighter uppercase leading-none">{{ recipient }}</p>
+            </div>
+            <div class="w-full h-[1px] bg-void/10"></div>
+            <div class="w-full h-[1px] bg-void/10"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="controls"
+    class="mt-12 flex flex-col md:flex-row items-center justify-between gap-6 w-full max-w-2xl px-4 transition-opacity duration-700">
+    <div class="flex items-center gap-8">
+      <a href="/"
+        class="text-[10px] font-black text-void/40 hover:text-void transition-colors uppercase tracking-[0.2em]">⇠
+        Home</a>
+      <button id="flipBtn" class="text-[10px] font-black text-accent hover:underline uppercase tracking-[0.2em]">Flip
+        Card</button>
+    </div>
+    <button id="reportBtn"
+      class="px-6 py-3 bg-void text-white font-bold rounded-2xl hover:bg-gold hover:text-void transition-all text-[10px] uppercase tracking-[0.2em]">
+      Send Card
+    </button>
+  </div>
+
+  <script nonce={{ nonce }}>
+    const postcard = document.getElementById('postcard');
+    const secretText = document.getElementById('secretText');
+    const flipBtn = document.getElementById('flipBtn');
+
+    secretText.innerText = secret;
+
+    const handleFlip = () => {
+      document.querySelector('.card-container').classList.toggle('flipped');
+    };
+
+    postcard.addEventListener('click', handleFlip);
+    flipBtn.addEventListener('click', handleFlip);
+
+    document.getElementById('reportBtn')?.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const form = document.createElement('form');
+      form.method = 'POST';
+      form.action = '/report';
+
+      const input = document.createElement('input');
+      input.type = 'hidden';
+      input.name = 'path';
+      input.value = location.pathname + location.search;
+      if (input.value.startsWith('/')) {
+        input.value = input.value.slice(1);
+      }
+
+      form.appendChild(input);
+      document.body.appendChild(form);
+      form.submit();
+    });
+  </script>
+
+  <footer class="mt-16 md:mt-20 text-[10px] font-bold text-void/20 uppercase tracking-[0.3em] text-center">
+    Nomad Notes — Made with care in some coffeeshop.
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Carta — Send a feeling.</title>
+  <link rel="stylesheet" href="/css/app.css" />
+</head>
+
+<body class="min-h-screen bg-white text-void font-sans flex flex-col items-center justify-center p-6 md:p-8">
+  <div class="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
+
+    <header class="text-left space-y-6 md:space-y-8">
+      <div
+        class="inline-block px-3 py-1 bg-void text-white text-[10px] font-bold tracking-[0.2em] uppercase rounded-full">
+        Beta
+      </div>
+      <h1 class="text-5xl md:text-7xl font-black tracking-tighter leading-[0.9]">
+        Send a <br />
+        <span class="text-accent underline decoration-gold/40">feeling.</span>
+      </h1>
+      <p class="text-base md:text-lg text-void/70 font-medium max-w-sm">
+        Digital messages are easy. Physical thoughts are better. Bridge the gap with custom-printed postcards.
+      </p>
+      <div class="pt-4 flex items-center gap-4">
+        <a href="/destinations"
+          class="text-sm font-bold text-void hover:text-accent transition-colors flex items-center gap-2 group">
+          Explore Destinations <span class="text-xl group-hover:translate-x-1 transition-transform">⇢</span>
+        </a>
+      </div>
+    </header>
+
+    <main class="bg-white rounded-[2rem] shadow-bento p-8 md:p-10 border border-slate relative overflow-hidden">
+      <form method="GET" action="/postcard" class="space-y-6 relative z-10 text-left">
+        <div class="space-y-4">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="text-[10px] font-bold uppercase tracking-widest text-void/50">Recipient</label>
+              <input type="text" name="recipient" placeholder="Sam" required
+                class="w-full bg-slate border-none rounded-2xl px-4 py-3 focus:ring-2 focus:ring-accent transition-all placeholder:text-void/20" />
+            </div>
+            <div>
+              <label class="text-[10px] font-bold uppercase tracking-widest text-void/50">From</label>
+              <input type="text" name="sender" placeholder="Alex" required
+                class="w-full bg-slate border-none rounded-2xl px-4 py-3 focus:ring-2 focus:ring-accent transition-all placeholder:text-void/20" />
+            </div>
+          </div>
+
+          <div>
+            <label class="text-[10px] font-bold uppercase tracking-widest text-void/50">Your thoughts</label>
+            <textarea name="message" rows="3" placeholder="What's on your mind?" required
+              class="w-full bg-slate border-none rounded-2xl px-4 py-3 focus:ring-2 focus:ring-accent transition-all placeholder:text-void/20 resize-none"></textarea>
+          </div>
+
+          <div>
+            <label class="text-[10px] font-bold uppercase tracking-widest text-void/50">Secret PS</label>
+            <input type="password" name="secret" placeholder="Optional"
+              class="w-full bg-slate border-none rounded-2xl px-4 py-3 focus:ring-2 focus:ring-accent transition-all placeholder:text-void/20" />
+          </div>
+        </div>
+
+        <div class="pt-4">
+          <button type="submit"
+            class="w-full bg-void text-white font-bold rounded-2xl px-6 py-4 hover:scale-[1.02] active:scale-[0.98] transition-all shadow-lg hover:shadow-accent/20">
+            Create Postcard
+          </button>
+        </div>
+      </form>
+    </main>
+
+  </div>
+
+  <footer class="mt-16 md:mt-20 text-[10px] font-bold text-void/20 uppercase tracking-[0.3em] text-center">
+    Nomad Notes — Made with care in some coffeeshop.
+  </footer>
+</body>
+
+</html>

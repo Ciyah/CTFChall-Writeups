@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .perspective { perspective: 2000px; }
+  .preserve-3d { transform-style: preserve-3d; }
+  .backface-hidden { backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+
+  .card-container {
+    @apply relative perspective w-full max-w-2xl mx-auto aspect-[3/2] md:aspect-[3/2];
+  }
+
+  .card-inner {
+    @apply relative w-full h-full transition-transform duration-1000 preserve-3d cursor-pointer;
+  }
+
+  .flipped .card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .card-front, .card-back {
+    @apply absolute inset-0 w-full h-full backface-hidden rounded-[2rem] shadow-postcard overflow-hidden bg-white;
+  }
+
+  .card-back {
+    transform: rotateY(180deg);
+  }
+
+  .glass-overlay {
+    @apply absolute inset-0 backdrop-blur-xl bg-white/40 z-50 flex items-center justify-center transition-all duration-700 rounded-[2rem];
+  }
+}
+
+body { @apply antialiased text-void selection:bg-accent selection:text-white bg-slate overflow-x-hidden; }
+html { scroll-behavior: smooth; }

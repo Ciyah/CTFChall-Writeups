@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ name }}'s Saved Destinations — Carta</title>
+  <link rel="stylesheet" href="/css/app.css" />
+</head>
+
+<body class="min-h-screen bg-white text-void font-sans p-6 md:p-16">
+
+  <header class="max-w-6xl mx-auto mb-12 md:mb-16 space-y-4">
+    <div class="flex items-center gap-3 text-accent">
+      <span class="text-[10px] font-black uppercase tracking-[0.3em]">Curated for</span>
+    </div>
+    <h1 class="text-5xl md:text-7xl font-black tracking-tighter leading-none italic uppercase">
+      {{ name }}
+    </h1>
+    <p class="text-lg md:text-xl text-void/60 max-w-xl font-medium">
+      A collection of places that feel like home, even if you've never been. Hand-picked for your next Carta.
+    </p>
+  </header>
+
+  <main class="max-w-6xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 auto-rows-[200px] md:auto-rows-[250px]">
+
+      <div
+        class="md:col-span-2 md:row-span-2 bg-slate rounded-[2rem] md:rounded-[2.5rem] overflow-hidden relative group shadow-bento border border-void/5">
+        <img src="/img/paris.jpg" alt="Paris"
+          class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+        <div
+          class="absolute inset-0 bg-gradient-to-t from-void/80 via-void/20 to-transparent p-6 md:p-10 flex flex-col justify-end">
+          <h2 class="text-3xl md:text-4xl font-black text-white tracking-tighter">Paris</h2>
+          <p class="text-white/80 text-xs md:text-sm max-w-xs mt-2 font-medium">The city that taught me how to walk
+            slowly. Magic in every corner.</p>
+        </div>
+      </div>
+
+      <div
+        class="md:col-span-2 bg-slate rounded-[2rem] md:rounded-[2.5rem] overflow-hidden relative group shadow-bento border border-void/5">
+        <img src="/img/tokyo.jpg" alt="Tokyo"
+          class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+        <div
+          class="absolute inset-0 bg-gradient-to-t from-void/70 via-void/10 to-transparent p-6 md:p-8 flex flex-col justify-end">
+          <h2 class="text-xl md:text-2xl font-black text-white tracking-tighter">Tokyo</h2>
+          <p class="text-white/80 text-xs mt-1 font-medium">Neon dreams and quiet temples. A city of beautiful
+            contradictions.</p>
+        </div>
+      </div>
+
+      <div
+        class="md:col-span-1 bg-accent rounded-[2rem] md:rounded-[2.5rem] overflow-hidden relative group shadow-bento border border-void/5">
+        <img src="/img/santorini.jpg" alt="Santorini"
+          class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+        <div class="absolute inset-0 bg-gradient-to-t from-void/70 to-transparent p-6 md:p-8 flex flex-col justify-end">
+          <h2 class="text-base md:text-lg font-black text-white tracking-tight">Santorini</h2>
+          <p class="text-white/80 text-[10px] mt-1 font-bold italic">Deep Blue.</p>
+        </div>
+      </div>
+
+      <div
+        class="md:col-span-1 bg-slate rounded-[2rem] md:rounded-[2.5rem] overflow-hidden relative group shadow-bento border border-void/5">
+        <img src="/img/nyc.jpg" alt="NYC"
+          class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+        <div class="absolute inset-0 p-6 flex flex-col justify-end bg-gradient-to-t from-void/60 to-transparent">
+          <h2 class="text-base md:text-lg font-black text-white tracking-tighter">NYC</h2>
+          <p class="text-white/80 text-[10px] mt-1 font-medium">Eight million stories. Yours starts at the corner deli.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="md:col-span-1 bg-gold rounded-[2rem] md:rounded-[2.5rem] overflow-hidden relative group shadow-bento border border-void/5">
+        <img src="/img/venice.jpg" alt="Venice"
+          class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+        <div class="absolute inset-0 bg-gradient-to-t from-void/70 to-transparent p-6 md:p-8 flex flex-col justify-end">
+          <h2 class="text-base md:text-lg font-black text-white tracking-tight">Venice</h2>
+          <p class="text-white/80 text-[10px] mt-1 font-bold italic">Floating on time.</p>
+        </div>
+      </div>
+
+      <div
+        class="md:col-span-3 bg-slate rounded-[2rem] md:rounded-[2.5rem] overflow-hidden relative group shadow-bento border border-dashed border-void/20">
+        <img src="/img/mystery.jpg" alt="Mystery destination"
+          class="absolute inset-0 w-full h-full object-cover opacity-20 group-hover:opacity-40 transition-opacity duration-700 mix-blend-luminosity" />
+        <div class="relative p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-6 z-10">
+          <div class="space-y-2 text-center md:text-left">
+            <h2 class="text-xl md:text-2xl font-black tracking-tighter">The Unknown.</h2>
+            <p class="text-xs md:text-sm text-void/60 font-medium italic">Your next favorite place isn't on this list
+              yet.</p>
+          </div>
+          <a href="/"
+            class="w-full md:w-auto px-8 py-4 bg-void text-white font-bold rounded-2xl text-[10px] uppercase tracking-widest hover:scale-105 transition-transform text-center">
+            Send a Card
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="mt-16 md:mt-20 text-[10px] font-bold text-void/20 uppercase tracking-[0.3em] text-center">
+    Nomad Notes — Made with care in some coffeeshop.
+    <div class="flex gap-8">
+      <a href="/" class="hover:text-void transition-colors underline decoration-accent/20">Home</a>
+    </div>
+  </footer>
+</body>
+
+</html>
