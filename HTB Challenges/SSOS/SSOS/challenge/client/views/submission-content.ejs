@@ -1,0 +1,108 @@
+<div class="animate-fade-in mx-auto max-w-4xl">
+    <!-- Back Button -->
+    <div class="mb-6">
+        <a href="/assignment/<%= submission.assignmentId %>"
+            class="inline-flex items-center gap-2 rounded-xl bg-white px-4 py-2 text-sm font-semibold text-slate-700 shadow-card transition-all hover:bg-slate-50 active:scale-95">
+            <span class="iconify h-4 w-4" data-icon="ph:arrow-left-bold"></span>
+            Back to Assignment
+        </a>
+    </div>
+
+    <!-- Submission Card -->
+    <div class="overflow-hidden rounded-2xl bg-white shadow-card sm:rounded-3xl">
+        <div class="border-b border-slate-100 bg-gradient-to-r from-emerald-500 to-teal-600 p-5 backdrop-blur sm:p-6">
+            <div class="flex items-center justify-between gap-4">
+                <h1 class="text-xl font-bold text-white sm:text-2xl">
+                    <span class="iconify mr-2 inline-block h-6 w-6" data-icon="ph:file-check-bold"></span>
+                    Your Submission
+                </h1>
+                <span
+                    class="inline-flex items-center gap-1 rounded-full bg-white/20 backdrop-blur px-3 py-1.5 text-xs font-bold text-white border border-white/30">
+                    <span class="iconify h-4 w-4" data-icon="ph:lock-bold"></span>
+                    Private
+                </span>
+            </div>
+        </div>
+
+        <div class="p-6 sm:p-8">
+            <!-- Submission Info -->
+            <div class="mb-6 flex items-center justify-between gap-4 rounded-xl bg-slate-50 p-4">
+                <div class="flex items-center gap-3">
+                    <div
+                        class="flex h-12 w-12 items-center justify-center overflow-hidden rounded-full bg-emerald-100 text-emerald-600">
+                        <% if (submission.author.avatar) { %>
+                            <img src="<%= submission.author.avatar %>" alt="<%= submission.author.name %>"
+                                class="h-full w-full object-cover"
+                                onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                            <span class="iconify h-6 w-6" data-icon="ph:user-bold" style="display:none;"></span>
+                            <% } else { %>
+                                <span class="iconify h-6 w-6" data-icon="ph:user-bold"></span>
+                                <% } %>
+                    </div>
+                    <div>
+                        <p class="font-semibold text-slate-900">
+                            <%= submission.author.name %>
+                        </p>
+                        <p class="text-xs text-slate-500">
+                            <span class="iconify mr-1 inline-block h-4 w-4" data-icon="ph:clock-bold"></span>
+                            Submitted: <%= new Date(submission.timestamp).toLocaleString() %>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Score Display -->
+                <% if (submission.score !==null) { %>
+                    <div class="rounded-xl bg-indigo-100 px-6 py-3 text-center">
+                        <p class="text-sm font-medium text-indigo-600">Your Score</p>
+                        <p class="text-3xl font-bold text-indigo-600">
+                            <%= submission.score %>
+                        </p>
+                        <p class="text-xs text-indigo-500">out of 100</p>
+                    </div>
+                    <% } else { %>
+                        <div class="rounded-xl bg-amber-100 px-6 py-3 text-center">
+                            <p class="text-sm font-medium text-amber-700">
+                                <span class="iconify mr-1 inline-block h-4 w-4" data-icon="ph:hourglass-bold"></span>
+                                Pending Review
+                            </p>
+                            <p class="text-xs text-amber-600 mt-1">Your submission is being reviewed</p>
+                        </div>
+                        <% } %>
+            </div>
+
+            <!-- Submission Content -->
+            <div
+                class="submission-content rounded-xl bg-gradient-to-br from-slate-50 to-white p-6 text-slate-800 sm:p-8">
+                <h2 class="mb-4 text-lg font-bold text-slate-900">
+                    <span class="iconify mr-2 inline-block h-5 w-5" data-icon="ph:code-bold"></span>
+                    Your Solution
+                </h2>
+                <div class="prose prose-slate max-w-none">
+                    <%- submission.content %>
+                </div>
+            </div>
+
+            <!-- Score Info -->
+            <% if (submission.score !==null) { %>
+                <div class="mt-6 rounded-xl bg-indigo-50 border border-indigo-200 p-4">
+                    <div class="flex items-center gap-2 text-indigo-900">
+                        <span class="iconify h-5 w-5" data-icon="ph:info-bold"></span>
+                        <p class="text-sm font-medium">
+                            <% if (submission.score>= 90) { %>
+                                Excellent work! You've demonstrated a strong understanding of the assignment.
+                                <% } else if (submission.score>= 80) { %>
+                                    Great job! Your solution shows good comprehension of the material.
+                                    <% } else if (submission.score>= 70) { %>
+                                        Good work! You've met the basic requirements for this assignment.
+                                        <% } else { %>
+                                            Keep practicing! Review the assignment requirements and try again.
+                                            <% } %>
+                        </p>
+                    </div>
+                </div>
+                <% } %>
+        </div>
+    </div>
+</div>
+
+<script src="/js/app.js"></script>

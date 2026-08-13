@@ -1,0 +1,216 @@
+<div class="animate-fade-in mx-auto max-w-4xl">
+    <!-- Back Button -->
+    <div class="mb-6">
+        <a href="/" class="inline-flex items-center gap-2 rounded-xl bg-white px-4 py-2 text-sm font-semibold text-slate-700 shadow-card transition-all hover:bg-slate-50 active:scale-95">
+            <span class="iconify h-4 w-4" data-icon="ph:arrow-left-bold"></span>
+            Back to Home
+        </a>
+    </div>
+
+    <!-- Success Message -->
+    <% if (typeof success !== 'undefined' && success) { %>
+    <div class="mb-6 overflow-hidden rounded-2xl bg-emerald-50 border border-emerald-200 shadow-soft">
+        <div class="flex items-start gap-4 p-6">
+            <div class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-emerald-100">
+                <span class="iconify h-6 w-6 text-emerald-600" data-icon="ph:check-circle-bold"></span>
+            </div>
+            <div>
+                <h3 class="mb-1 font-bold text-emerald-900">Profile Updated Successfully!</h3>
+                <p class="text-sm text-emerald-700">Your changes have been saved.</p>
+            </div>
+        </div>
+    </div>
+    <% } %>
+
+    <!-- Profile Card -->
+    <div class="overflow-hidden rounded-2xl bg-white shadow-card sm:rounded-3xl">
+        <!-- Header -->
+        <div class="border-b border-slate-100 bg-gradient-to-br from-indigo-50 to-purple-50 p-6 sm:p-8">
+            <div class="flex items-center gap-4">
+                <div class="flex h-20 w-20 items-center justify-center overflow-hidden rounded-full bg-white shadow-lg">
+                    <% if (user.avatar) { %>
+                        <img src="<%= user.avatar %>" alt="<%= user.displayName %>" class="h-full w-full object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <span class="iconify h-10 w-10 text-indigo-600" data-icon="ph:user-circle-bold" style="display:none;"></span>
+                    <% } else { %>
+                        <span class="iconify h-10 w-10 text-indigo-600" data-icon="ph:user-circle-bold"></span>
+                    <% } %>
+                </div>
+                <div>
+                    <h1 class="text-2xl font-bold text-slate-900 sm:text-3xl"><%= user.displayName %></h1>
+                    <p class="text-sm text-slate-600"><%= user.email %></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Edit Form -->
+        <form action="/profile" method="POST" class="p-6 sm:p-8">
+            <div class="space-y-6">
+                <!-- Display Name -->
+                <div>
+                    <label for="displayName" class="mb-2 block text-sm font-bold text-slate-700">
+                        <span class="iconify mr-1 inline-block h-4 w-4" data-icon="ph:user-bold"></span>
+                        Display Name
+                    </label>
+                    <input
+                        type="text"
+                        id="displayName"
+                        name="displayName"
+                        value="<%= user.displayName %>"
+                        placeholder="Your display name"
+                        maxlength="100"
+                        class="block w-full rounded-xl border border-slate-200 bg-slate-50 p-4 text-base font-medium text-slate-900 placeholder:text-slate-400 focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-100 transition-all"
+                    />
+                    <p class="mt-2 text-xs text-slate-500">This name will be displayed on your posts</p>
+                </div>
+
+                <!-- Avatar URL -->
+                <div>
+                    <label for="avatar" class="mb-2 block text-sm font-bold text-slate-700">
+                        <span class="iconify mr-1 inline-block h-4 w-4" data-icon="ph:image-bold"></span>
+                        Avatar URL
+                    </label>
+                    <div class="flex gap-3">
+                        <input
+                            type="url"
+                            id="avatar"
+                            name="avatar"
+                            value="<%= user.avatar || '' %>"
+                            placeholder="https://example.com/avatar.jpg"
+                            class="block w-full flex-1 rounded-xl border border-slate-200 bg-slate-50 p-4 text-base font-medium text-slate-900 placeholder:text-slate-400 focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-100 transition-all"
+                        />
+                        <div class="flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-slate-200 bg-slate-100">
+                            <% if (user.avatar) { %>
+                                <img id="avatarPreview" src="<%= user.avatar %>" alt="Preview" class="h-full w-full object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                                <span class="iconify h-6 w-6 text-slate-400" data-icon="ph:image-bold" style="display:none;"></span>
+                            <% } else { %>
+                                <span id="avatarPreview" class="iconify h-6 w-6 text-slate-400" data-icon="ph:image-bold"></span>
+                            <% } %>
+                        </div>
+                    </div>
+                    <p class="mt-2 text-xs text-slate-500">Enter a direct link to your avatar image</p>
+                </div>
+
+                <!-- Bio -->
+                <div>
+                    <label for="bio" class="mb-2 block text-sm font-bold text-slate-700">
+                        <span class="iconify mr-1 inline-block h-4 w-4" data-icon="ph:text-aa-bold"></span>
+                        Bio
+                    </label>
+                    <textarea
+                        id="bio"
+                        name="bio"
+                        rows="4"
+                        maxlength="500"
+                        placeholder="Tell us about yourself..."
+                        class="block w-full rounded-xl border border-slate-200 bg-slate-50 p-4 text-base text-slate-900 placeholder:text-slate-400 focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-100 transition-all"
+                    ><%= user.bio || '' %></textarea>
+                    <div class="mt-2 flex items-center justify-between">
+                        <p class="text-xs text-slate-500">Share a bit about yourself</p>
+                        <p class="text-xs text-slate-400"><span id="bioCount">0</span>/500</p>
+                    </div>
+                </div>
+
+                <!-- Tips -->
+                <div class="rounded-xl bg-blue-50 border border-blue-200 p-4">
+                    <div class="flex items-start gap-3">
+                        <span class="iconify h-5 w-5 text-blue-600 flex-shrink-0 mt-0.5" data-icon="ph:lightbulb-bold"></span>
+                        <div class="text-sm text-blue-800">
+                            <p class="font-semibold mb-2">Profile Tips:</p>
+                            <ul class="list-disc list-inside space-y-1 text-xs">
+                                <li>Use a clear, professional avatar image</li>
+                                <li>Keep your display name recognizable</li>
+                                <li>Your bio can include your interests or expertise</li>
+                                <li>Profile updates are visible immediately on your posts</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="flex gap-3">
+                    <button 
+                        type="submit" 
+                        class="flex-1 rounded-xl bg-indigo-600 py-4 font-bold text-white shadow-xl shadow-indigo-600/20 transition-all hover:bg-indigo-700 active:scale-95"
+                    >
+                        <span class="iconify mr-2 inline-block h-5 w-5" data-icon="ph:floppy-disk-bold"></span>
+                        Save Changes
+                    </button>
+                    <a 
+                        href="/" 
+                        class="inline-flex items-center justify-center rounded-xl bg-slate-100 px-6 py-4 font-semibold text-slate-700 transition-all hover:bg-slate-200 active:scale-95"
+                    >
+                        Cancel
+                    </a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Profile Preview -->
+    <div class="mt-6 overflow-hidden rounded-2xl bg-white shadow-card sm:rounded-3xl">
+        <div class="border-b border-slate-100 bg-slate-50/80 p-5 backdrop-blur">
+            <h2 class="text-lg font-bold text-slate-900">
+                <span class="iconify mr-2 inline-block h-5 w-5" data-icon="ph:eye-bold"></span>
+                Preview
+            </h2>
+        </div>
+        <div class="p-6">
+            <div class="flex items-center gap-3">
+                <div class="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full bg-indigo-100">
+                    <% if (user.avatar) { %>
+                        <img src="<%= user.avatar %>" alt="<%= user.displayName %>" class="h-full w-full object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                        <span class="iconify h-5 w-5 text-indigo-600" data-icon="ph:user-bold" style="display:none;"></span>
+                    <% } else { %>
+                        <span class="iconify h-5 w-5 text-indigo-600" data-icon="ph:user-bold"></span>
+                    <% } %>
+                </div>
+                <div>
+                    <p class="font-semibold text-slate-900"><%= user.displayName %></p>
+                    <p class="text-xs text-slate-500">This is how you'll appear on posts</p>
+                </div>
+            </div>
+            <% if (user.bio) { %>
+            <div class="mt-4 rounded-lg bg-slate-50 p-3">
+                <p class="text-sm text-slate-700"><%= user.bio %></p>
+            </div>
+            <% } %>
+        </div>
+    </div>
+</div>
+
+<script>
+// Bio character counter
+const bioTextarea = document.getElementById('bio');
+const bioCount = document.getElementById('bioCount');
+if (bioTextarea && bioCount) {
+    bioCount.textContent = bioTextarea.value.length;
+    bioTextarea.addEventListener('input', function() {
+        bioCount.textContent = this.value.length;
+    });
+}
+
+// Avatar preview
+const avatarInput = document.getElementById('avatar');
+const avatarPreview = document.getElementById('avatarPreview');
+if (avatarInput && avatarPreview) {
+    avatarInput.addEventListener('input', function() {
+        const url = this.value.trim();
+        if (url && url.match(/^https?:\/\/.+/)) {
+            if (avatarPreview.tagName === 'IMG') {
+                avatarPreview.src = url;
+                avatarPreview.style.display = 'block';
+            } else {
+                const img = document.createElement('img');
+                img.src = url;
+                img.className = 'h-full w-full object-cover';
+                img.onerror = function() {
+                    this.style.display = 'none';
+                    avatarPreview.style.display = 'block';
+                };
+                avatarPreview.parentElement.insertBefore(img, avatarPreview);
+                avatarPreview.style.display = 'none';
+            }
+        }
+    });
+}
+</script>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Content - EduLearn</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Iconify for icons -->
+    <script src="https://code.iconify.design/3/3.1.1/iconify.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="flex min-h-screen flex-col bg-[#F8F9FB] font-sans text-slate-800">
+    <nav class="bg-white shadow-sm border-b border-slate-100">
+        <div class="mx-auto max-w-5xl px-4 sm:px-6">
+            <div class="flex h-16 items-center justify-between">
+                <a href="/" class="text-xl font-bold text-slate-900 hover:text-indigo-600 transition-colors">
+                    <span class="iconify mr-2 h-6 w-6 inline-block" data-icon="ph:graduation-cap-bold"></span>
+                    EduLearn
+                </a>
+                <div class="flex items-center gap-3">
+                    <button id="darkModeBtn" onclick="toggleDarkMode()" class="feature-btn" title="Toggle dark mode">
+                        <span class="iconify h-5 w-5" data-icon="ph:moon-bold"></span>
+                    </button>
+                    <a href="/logout" class="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors">
+                        <span class="iconify mr-1 h-4 w-4 inline-block" data-icon="ph:sign-out-bold"></span>
+                        Logout
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="mx-auto w-full max-w-3xl flex-grow px-4 py-8 sm:px-6">
+        <div class="animate-fade-in">
+            <!-- Back Button -->
+            <div class="mb-6">
+                <a href="/"
+                    class="inline-flex items-center gap-2 rounded-xl bg-white px-4 py-2 text-sm font-semibold text-slate-700 shadow-card transition-all hover:bg-slate-50 active:scale-95">
+                    <span class="iconify h-4 w-4" data-icon="ph:arrow-left-bold"></span>
+                    Back to Home
+                </a>
+            </div>
+
+            <!-- Header -->
+            <div class="mb-8 text-center">
+                <div
+                    class="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-rose-100 text-rose-600">
+                    <span class="iconify h-8 w-8" data-icon="ph:warning-bold"></span>
+                </div>
+                <h1 class="mb-2 text-3xl font-bold text-slate-900">Report Content</h1>
+                <p class="text-slate-600">Help us maintain a safe and respectful community</p>
+            </div>
+
+            <!-- Success Message -->
+            <% if (typeof success !=='undefined' && success) { %>
+                <div class="mb-6 overflow-hidden rounded-2xl bg-emerald-50 border border-emerald-200 shadow-soft">
+                    <div class="flex items-start gap-4 p-6">
+                        <div
+                            class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-emerald-100">
+                            <span class="iconify h-6 w-6 text-emerald-600" data-icon="ph:check-circle-bold"></span>
+                        </div>
+                        <div>
+                            <h3 class="mb-1 font-bold text-emerald-900">Report Submitted Successfully!</h3>
+                            <p class="text-sm text-emerald-700">Thank you for helping us keep the community safe. Our
+                                team will review this report shortly.</p>
+                        </div>
+                    </div>
+                </div>
+                <% } %>
+
+                    <!-- Report Form -->
+                    <div class="overflow-hidden rounded-2xl bg-white shadow-card sm:rounded-3xl">
+                        <div class="border-b border-slate-100 bg-rose-50/50 p-6 backdrop-blur">
+                            <h2 class="text-lg font-bold text-slate-900">
+                                <span class="iconify mr-2 inline-block h-5 w-5 text-rose-600"
+                                    data-icon="ph:flag-bold"></span>
+                                Submit Report
+                            </h2>
+                        </div>
+
+                        <form action="/submit-url" method="POST" class="p-6 sm:p-8">
+                            <div class="mb-6">
+                                <label for="url" class="mb-3 block text-sm font-bold text-slate-700">
+                                    <span class="iconify mr-1 inline-block h-4 w-4" data-icon="ph:link-bold"></span>
+                                    Content URL
+                                </label>
+                                <input type="url" id="url" name="url" required
+                                    placeholder="https://edulearn.htb:1337/assignment/123" pattern="https?://.+"
+                                    title="Please enter a valid URL starting with http:// or https://"
+                                    class="block w-full rounded-xl border border-slate-200 bg-slate-50 p-4 text-base font-medium text-slate-900 placeholder:text-slate-400 focus:border-rose-500 focus:outline-none focus:ring-2 focus:ring-rose-100 transition-all" />
+                                <p class="mt-2 text-xs text-slate-500">
+                                    <span class="iconify mr-1 inline-block h-3 w-3" data-icon="ph:info-bold"></span>
+                                    Enter the full URL of the assignment or submission you want to report
+                                </p>
+                            </div>
+
+                            <div class="rounded-xl bg-amber-50 border border-amber-200 p-4 mb-6">
+                                <div class="flex items-start gap-3">
+                                    <span class="iconify h-5 w-5 text-amber-600 flex-shrink-0 mt-0.5"
+                                        data-icon="ph:warning-circle-bold"></span>
+                                    <div class="text-sm text-amber-800">
+                                        <p class="font-semibold mb-1">Report Guidelines</p>
+                                        <ul class="list-disc list-inside space-y-1 text-xs">
+                                            <li>Only report content that violates our community guidelines</li>
+                                            <li>False reports may result in account restrictions</li>
+                                            <li>Our team reviews all reports within 24 hours</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button type="submit"
+                                class="w-full rounded-xl bg-rose-600 py-4 font-bold text-white shadow-xl shadow-rose-600/20 transition-all hover:bg-rose-700 active:scale-95">
+                                <span class="iconify mr-2 inline-block h-5 w-5"
+                                    data-icon="ph:paper-plane-right-bold"></span>
+                                Submit Report
+                            </button>
+                        </form>
+                    </div>
+        </div>
+    </main>
+
+    <footer class="border-t border-slate-100 bg-white py-6">
+        <div class="mx-auto max-w-5xl px-4 sm:px-6">
+            <p class="text-center text-sm text-slate-500">
+                Made with <span class="iconify inline-block h-4 w-4 text-rose-500" data-icon="ph:heart-fill"></span> by
+                EduLearn Team
+            </p>
+        </div>
+    </footer>
+
+    <script src="/js/app.js"></script>
+</body>
+
+</html>

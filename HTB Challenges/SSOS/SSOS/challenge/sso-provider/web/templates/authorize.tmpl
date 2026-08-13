@@ -1,0 +1,42 @@
+{{ define "oauth/authorize.tmpl" }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authorize Application</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <div class="container mx-auto px-4 py-8">
+        <div class="max-w-md mx-auto bg-white rounded-lg overflow-hidden shadow-lg">
+            <div class="px-6 py-8">
+                <h2 class="text-2xl font-bold text-center text-gray-700 mb-8">Authorize {{ .clientName }}</h2>
+                <p class="mb-6 text-gray-600">This application would like to:</p>
+                <ul class="list-disc list-inside mb-6 text-gray-600">
+                    {{ range .scopes }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
+                <form id="authorizeForm" method="POST" action="/oauth/authorize">
+                    <input type="hidden" name="client_id" value="{{ .clientID }}">
+                    <input type="hidden" name="scope" value="{{ .scope }}">
+                    <input type="hidden" name="redirect_uri" value="{{ .redirectURI }}">
+                    <input type="hidden" name="state" value="{{ .state }}">
+                    <div class="flex space-x-4">
+                        <button type="submit" name="approved" value="true"
+                            class="flex-1 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                            Allow
+                        </button>
+                        <button type="submit" name="approved" value="false"
+                            class="flex-1 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+                            Deny
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+{{ end }} 

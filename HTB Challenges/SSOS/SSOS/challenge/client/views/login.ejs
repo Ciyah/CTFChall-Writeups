@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - edulearn App</title>
+    <meta name="description" content="Sign in to share your edulearn with the community">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Iconify for icons -->
+    <script src="https://code.iconify.design/3/3.1.1/iconify.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body
+    class="flex min-h-screen flex-col bg-[#F8F9FB] font-sans text-slate-800 selection:bg-indigo-100 selection:text-indigo-900">
+    <!-- Dark Mode Toggle for Login Page -->
+    <div class="fixed top-4 right-4 z-50">
+        <button id="darkModeBtn" onclick="toggleDarkMode()" class="feature-btn" title="Toggle dark mode">
+            <span class="iconify h-5 w-5" data-icon="ph:moon-bold"></span>
+        </button>
+    </div>
+
+    <%- include('login-content') %>
+
+        <script src="/js/app.js"></script>
+</body>
+
+</html>

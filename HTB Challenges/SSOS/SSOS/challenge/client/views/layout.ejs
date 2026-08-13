@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn Platform - Submit Your Assignments</title>
+    <meta name="description" content="Complete and submit your assignments on EduLearn platform">
+    <% if (typeof data !== 'undefined' && data.assignment && data.assignment.id) { %>
+    <meta name="assignment-id" content="<%= data.assignment.id %>">
+    <% } %>
+    <% if (typeof data !== 'undefined' && data.submission && data.submission.id) { %>
+    <meta name="submission-id" content="<%= data.submission.id %>">
+    <% } %>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Iconify for icons -->
+    <script src="https://code.iconify.design/3/3.1.1/iconify.min.js"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif']
+                    },
+                    colors: {
+                        brand: {
+                            purple: '#E5DEFF',
+                            indigo: '#6366F1'
+                        }
+                    },
+                    boxShadow: {
+                        'soft': '0 4px 20px -2px rgba(0, 0, 0, 0.05)',
+                        'card': '0 0 0 1px rgba(0,0,0,0.03), 0 2px 8px rgba(0,0,0,0.04)'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="flex min-h-screen flex-col bg-[#F8F9FB] font-sans text-slate-800 selection:bg-indigo-100 selection:text-indigo-900">
+    <nav class="bg-white shadow-sm border-b border-slate-100">
+        <div class="mx-auto max-w-5xl px-4 sm:px-6">
+            <div class="flex h-16 items-center justify-between">
+                <a href="/" class="text-xl font-bold text-slate-900 hover:text-indigo-600 transition-colors">
+                    <span class="iconify mr-2 h-6 w-6 inline-block" data-icon="ph:graduation-cap-bold"></span>
+                    EduLearn
+                </a>
+                <div class="flex items-center gap-3">
+                    <button id="darkModeBtn" onclick="toggleDarkMode()" class="feature-btn" title="Toggle dark mode">
+                        <span class="iconify h-5 w-5" data-icon="ph:moon-bold"></span>
+                    </button>
+                    <a href="/profile" class="feature-btn" title="Edit Profile">
+                        <% if (typeof user !== 'undefined' && user.avatar) { %>
+                            <img src="<%= user.avatar %>" alt="Profile" class="h-full w-full rounded-lg object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                            <span class="iconify h-5 w-5" data-icon="ph:user-bold" style="display:none;"></span>
+                        <% } else { %>
+                            <span class="iconify h-5 w-5" data-icon="ph:user-bold"></span>
+                        <% } %>
+                    </a>
+                    <a href="/logout" class="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors">
+                        <span class="iconify mr-1 h-4 w-4 inline-block" data-icon="ph:sign-out-bold"></span>
+                        Logout
+                    </a>
+                    <a href="/submit-url" class="flex items-center gap-2 rounded-xl bg-rose-500 px-4 py-2 text-sm font-bold text-white shadow-lg shadow-rose-500/20 transition-all hover:bg-rose-600 active:scale-95">
+                        <span class="iconify h-4 w-4" data-icon="ph:warning-bold"></span>
+                        Report
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <main class="mx-auto w-full max-w-5xl flex-grow px-4 py-8 sm:px-6">
+        <%- include(template, data) %>
+    </main>
+
+    <footer class="border-t border-slate-100 bg-white py-6">
+        <div class="mx-auto max-w-5xl px-4 sm:px-6">
+            <p class="text-center text-sm text-slate-500">
+                Made with <span class="iconify inline-block h-4 w-4 text-rose-500" data-icon="ph:heart-fill"></span> by EduLearn Team
+            </p>
+        </div>
+    </footer>
+
+    <!-- Load interactive features -->
+    <script src="/js/app.js"></script>
+</body>
+</html> 
