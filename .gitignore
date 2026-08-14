@@ -6,3 +6,5 @@
 *.dmp
 *.pcap
 *.pcapng
+__pycache__/
+*.pyc
