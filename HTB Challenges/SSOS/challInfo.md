@@ -2,7 +2,7 @@
 ctf: HTBLabs
 title: SSOS
 category: web
-difficulty: hard
+difficulty: medium
 tags: [oauth, csrf, race-condition, bot, cookie-tossing]
 flag_format: HTB{...}
 date: 2026-08-13
