@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Flag IDs — AttckDef Range{% endblock %}
+{% block content %}
+<section class="panel wide">
+  <h2>Flag IDs <button class="btn tiny ghost" id="refresh">refresh</button></h2>
+  <p class="muted">Published by the gameserver every tick, like the <code>flags.json</code>
+  feed of the SUNCTF AD game. This is where the flags <em>are</em> — not what they are.</p>
+  <table>
+    <thead><tr><th>tick</th><th>flag_id</th><th>expires</th></tr></thead>
+    <tbody id="rows"></tbody>
+  </table>
+</section>
+{% endblock %}
+{% block script %}
+<script>
+async function load() {
+  const r = await fetch("/api/flag_ids");
+  const tb = document.getElementById("rows");
+  tb.innerHTML = "";
+  if (!r.ok) { tb.innerHTML = "<tr><td colspan=3 class='muted'>gameserver between ticks…</td></tr>"; return; }
+  const j = await r.json();
+  for (const t of j.ticks) {
+    for (const fid of t.flag_ids) {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `<td>${t.tick}</td><td class="mono">${fid}</td>` +
+        `<td class="mono muted">${new Date(t.expires_at).toLocaleTimeString()}</td>`;
+      tb.appendChild(tr);
+    }
+  }
+}
+document.getElementById("refresh").onclick = load;
+load();
+setInterval(load, 10000);
+</script>
+{% endblock %}

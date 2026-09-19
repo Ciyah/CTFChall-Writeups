@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Attack data — AttckDef Revenge{% endblock %}
+{% block content %}
+<section class="panel">
+  <h2>Attack data</h2>
+  <p>
+    This is the hardened range: the share-token check was patched after last
+    week's incident. And yet yesterday's capture shows <strong>Scap3G04T</strong>
+    (<code>10.60.4.2</code>) exploiting <code>notestore</code> five times
+    anyway. Everyone else's traffic is ordinary service usage.
+  </p>
+  <table class="tight">
+    <thead><tr><th>capture</th><th>span</th><th>size</th><th></th></tr></thead>
+    <tbody>
+      <tr>
+        <td class="mono">old_attack.pcap</td>
+        <td class="mono muted">5 flags · ~12 min</td>
+        <td class="mono muted">{{ pcap_size or "unavailable" }}</td>
+        <td>{% if pcap_size %}<a class="btn tiny" href="/attack-data/old_attack.pcap">download</a>{% endif %}</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="muted small">Everything in the capture is from yesterday's ticks: note IDs
+  expire, flags re-roll every tick, and the league flag visible in the old accepted
+  submissions was issued against the staging flag. The method is the only thing
+  that still works.</p>
+</section>
+{% endblock %}

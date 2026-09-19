@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}AttckDef Revenge{% endblock %}</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/">ATTCKDEF <span>RANGE</span></a>
+    <nav>
+      <a href="/">Console</a>
+      <a href="/scoreboard">Scoreboard</a>
+      <a href="/flag-ids">Flag IDs</a>
+      <a href="/submit">Submit</a>
+      <a href="/attack-data">Attack Data</a>
+      <a href="/service">notestore</a>
+      <a href="/api/docs" target="_blank">API</a>
+      <span id="nav-auth"><a href="/service/login">sign in</a></span>
+    </nav>
+  </header>
+  <div class="tickbar">
+    <span>tick <strong id="tick-now">–</strong></span>
+    <div class="tick-progress"><div id="tick-fill"></div></div>
+    <span id="tick-left">–</span>
+  </div>
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+  <footer>
+    <span>attack/defence training range · tick {{ tick_seconds }}s · flag format <code>SUN26[A-Z2-7]{24}</code></span>
+    <span id="session-tag"></span>
+  </footer>
+  <script src="/static/app.js"></script>
+  {% block script %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}notestore{% endblock %}
+{% block content %}
+<section class="hero">
+  <h1>notestore</h1>
+  <p class="tagline">small notes, safe tokens</p>
+  <p>
+    A minimal note-taking service. Your notes are private: the public listing
+    shows titles and owners only. Reading a note that isn't yours requires its
+    <strong>share token</strong> — a random UUID issued at creation time.
+    The share dialog checks tokens with a type-ahead call so typos fail fast.
+  </p>
+  <div class="cta-row">
+    <a class="btn" href="/service/register">create account</a>
+    <a class="btn ghost" href="/service/notes">public listing</a>
+    <a class="btn ghost" href="/service/share">open a shared note</a>
+  </div>
+</section>
+{% endblock %}

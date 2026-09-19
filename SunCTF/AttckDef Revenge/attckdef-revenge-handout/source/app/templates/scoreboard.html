@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Scoreboard — AttckDef Range{% endblock %}
+{% block content %}
+<section class="panel wide">
+  <h2>Scoreboard <button class="btn tiny ghost" id="refresh">refresh</button></h2>
+  <table>
+    <thead>
+      <tr><th>#</th><th>team</th><th>address</th><th>attack</th><th>defense</th><th>SLA</th><th>total</th></tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+  <p class="muted small">Opponent scores are simulated from the game clock. Your attack points are real: +50 per accepted flag.</p>
+</section>
+{% endblock %}
+{% block script %}
+<script>
+async function load() {
+  const r = await fetch("/api/scoreboard");
+  const j = await r.json();
+  const tb = document.getElementById("rows");
+  tb.innerHTML = "";
+  for (const t of j.teams) {
+    const tr = document.createElement("tr");
+    if (t.you) tr.className = "you";
+    tr.innerHTML = `<td>${t.rank}</td><td class="mono">${t.name}${t.you ? " (you)" : ""}</td>` +
+      `<td class="mono muted">${t.ip}</td><td>${t.attack}</td><td>${t.defense}</td>` +
+      `<td>${t.sla.toFixed(0)}%</td><td><strong>${t.total}</strong></td>`;
+    tb.appendChild(tr);
+  }
+}
+document.getElementById("refresh").onclick = load;
+load();
+setInterval(load, 15000);
+</script>
+{% endblock %}
