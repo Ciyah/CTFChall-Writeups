@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block title %}Console — AttckDef Range{% endblock %}
+{% block content %}
+<section class="hero">
+  <h1>ATTCKDEF <em>RANGE</em></h1>
+  <p class="tagline">single-container attack/defence training game</p>
+  <p>
+    One vulnerable service is online: <code>notestore</code>. The gameserver
+    plants a flag into its flag store every <strong>{{ tick_seconds }}-second
+    tick</strong> and publishes the flag ID on the
+    <a href="/flag-ids">flag-ID feed</a>. Recover the flag while its tick is
+    alive and hand it to the <a href="/submit">submission server</a> for
+    points — and for the league flag.
+  </p>
+</section>
+<section class="grid">
+  <div class="card">
+    <h3>Service status</h3>
+    <table class="tight">
+      <thead><tr><th>service</th><th>state</th></tr></thead>
+      <tbody id="svc"><tr><td class="mono">notestore</td><td class="ok">online</td></tr></tbody>
+    </table>
+  </div>
+  <div class="card">
+    <h3>Your team</h3>
+    <p class="mono">Sunway CSC · 10.60.7.2</p>
+    <p id="you-stats">attack 0 · defense 0 · rank –</p>
+    <p><a href="/scoreboard">full scoreboard →</a></p>
+  </div>
+  <div class="card">
+    <h3>Attack data</h3>
+    <p>Organizers publish traffic captures from previous games. Yesterday's
+    capture contains five complete exploits of this service.</p>
+    <p><a href="/attack-data">download + filter cheatsheet →</a></p>
+  </div>
+</section>
+<section class="panel">
+  <h3>How a round works</h3>
+  <ol class="plain">
+    <li>Every tick the gameserver stores one flag in <code>notestore</code> under the <code>gameserver</code> account.</li>
+    <li>Flag IDs are public; flag values live behind the service's share tokens.</li>
+    <li>Flags expire after a few ticks. The submission server answers <code>accepted</code>, <code>old</code>, or <code>invalid</code>.</li>
+    <li>Yesterday's attack data shows someone doing this to you. Your job: do it back, live.</li>
+  </ol>
+</section>
+{% endblock %}
+{% block script %}
+<script>
+async function loadYou() {
+  const r = await fetch("/api/scoreboard");
+  const j = await r.json();
+  const you = j.teams.find(t => t.you);
+  if (you) document.getElementById("you-stats").textContent =
+    `attack ${you.attack} · defense ${you.defense} · rank #${you.rank}`;
+}
+loadYou();
+setInterval(loadYou, 30000);
+</script>
+{% endblock %}
