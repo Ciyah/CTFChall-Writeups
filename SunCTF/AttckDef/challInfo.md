@@ -16,7 +16,7 @@ SUNCTF AD attack/defence.
 Recover the final sunctf26{...} flag from the range and submit it here.
 
 Launch the range from this challenge and keep the generated instance URL private to your team. Use that full URL as the base URL for solver scripts. Challenge Creator: @Kitkat
-https://sunctf.sunwaycybersecurityclub.org/plugins/team-runtime-auth/launch/4 
+instance: https://sunctf.sunwaycybersecurityclub.org/plugins/team-runtime-auth/launch/4 
 
 ## Approach
 1. Inspected `attckdef-handout/old_attack.pcap` with `tshark`. Traffic from
