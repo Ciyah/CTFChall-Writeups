@@ -5,7 +5,7 @@ Ghost of Squares Past"
 category: "osint"
 difficulty: ""
 tags: []
-flag_format: "CTF{...}"
+flag_format: "deadface{...}"
 date: "2026-10-18"
 ---
 
