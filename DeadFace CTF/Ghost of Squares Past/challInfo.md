@@ -92,7 +92,7 @@ The James Oglethorpe Monument confirms the location described by the riddle.
 
 *Photo: Jennifer Morrow, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons.*
 
-### Point 4 — Telfair Square (1733)
+### Point 4 — St. John’s Square (1733)
 
 The supplied location photograph is the square immediately west of Wright
 Square.
