@@ -88,9 +88,9 @@ Square.
 
 The James Oglethorpe Monument confirms the location described by the riddle.
 
-![James Oglethorpe Monument in Chippewa Square](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/General_James_E._Oglethorpe_Statue_in_Chippewa_Square_%284351005904%29.jpg/1024px-General_James_E._Oglethorpe_Statue_in_Chippewa_Square_%284351005904%29.jpg)
+![James Oglethorpe Monument in Chippewa Square](https://commons.wikimedia.org/wiki/Special:FilePath/SOUTH%20FRONT%20AND%20WEST%20SIDE%20-%20Chippewa%20Square%20Monument%2C%20Savannah%2C%20Chatham%20County%2C%20GA%20HABS%20GA%2C26-SAV%2C4-2%20%28cropped%29%20%28cropped%29.tif?width=1024)
 
-*Photo: Jennifer Morrow, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons.*
+*Photo: Historic American Buildings Survey (HABS GA,26-SAV,4-2), public domain, via Wikimedia Commons.*
 
 ### Point 4 — St. John’s Square (1733)
 
