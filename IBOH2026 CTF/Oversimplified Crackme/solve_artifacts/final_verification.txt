@@ -1,0 +1,2 @@
+Captured output of the native harness executing the unpacked checker:
+CHECK 1 OUTPUT IBOH26{14bb7797-9830-479e-9d28-56b072f32dc5}
