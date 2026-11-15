@@ -170,4 +170,4 @@ NSEC permits zone walking, and its record-type metadata can carry data independe
 
 ## Flag
 
-`IBOH26{redacted}`
+`IBOH26{d07af141-882f-43bc-8ccf-04cc651eb15c}`
