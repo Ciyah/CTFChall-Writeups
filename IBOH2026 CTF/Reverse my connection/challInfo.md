@@ -138,7 +138,7 @@ cat /tmp/flag
 The command produced:
 
 ```text
-IBOH26{redacted}
+IBOH26{2de672c4-a9fb-46fe-b657-553884400816}
 ```
 
 ## Tools
@@ -157,5 +157,5 @@ IBOH26{redacted}
 
 ## Flag
 
-`IBOH26{redacted}`
+`IBOH26{2de672c4-a9fb-46fe-b657-553884400816}`
 
