@@ -1,0 +1,1338 @@
+[
+  {
+    "name": "signals.cofastic.com",
+    "line": "alpha-213.signals.cofastic.com. NS SOA TXT RRSIG NSEC DNSKEY TYPE65534"
+  },
+  {
+    "name": "alpha-213.signals.cofastic.com.",
+    "line": "alpha-921.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "alpha-921.signals.cofastic.com.",
+    "line": "alpha-942.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "alpha-942.signals.cofastic.com.",
+    "line": "bravo-007.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "bravo-007.signals.cofastic.com.",
+    "line": "bravo-383.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "bravo-383.signals.cofastic.com.",
+    "line": "bravo-617.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "bravo-617.signals.cofastic.com.",
+    "line": "bravo-694.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "bravo-694.signals.cofastic.com.",
+    "line": "bravo-718.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "bravo-718.signals.cofastic.com.",
+    "line": "bravo-818.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "bravo-818.signals.cofastic.com.",
+    "line": "charlie-167.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "charlie-167.signals.cofastic.com.",
+    "line": "charlie-498.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "charlie-498.signals.cofastic.com.",
+    "line": "charlie-731.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "charlie-731.signals.cofastic.com.",
+    "line": "command-hq.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "command-hq.signals.cofastic.com.",
+    "line": "delta-138.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "delta-138.signals.cofastic.com.",
+    "line": "delta-178.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "delta-178.signals.cofastic.com.",
+    "line": "delta-279.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "delta-279.signals.cofastic.com.",
+    "line": "delta-412.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "delta-412.signals.cofastic.com.",
+    "line": "delta-468.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "delta-468.signals.cofastic.com.",
+    "line": "delta-772.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "delta-772.signals.cofastic.com.",
+    "line": "echo-098.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "echo-098.signals.cofastic.com.",
+    "line": "echo-121.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "echo-121.signals.cofastic.com.",
+    "line": "echo-417.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "echo-417.signals.cofastic.com.",
+    "line": "echo-433.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "echo-433.signals.cofastic.com.",
+    "line": "echo-648.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "echo-648.signals.cofastic.com.",
+    "line": "echo-844.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "echo-844.signals.cofastic.com.",
+    "line": "extraction-point.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "extraction-point.signals.cofastic.com.",
+    "line": "foxtrot-060.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "foxtrot-060.signals.cofastic.com.",
+    "line": "foxtrot-094.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "foxtrot-094.signals.cofastic.com.",
+    "line": "foxtrot-353.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "foxtrot-353.signals.cofastic.com.",
+    "line": "foxtrot-384.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "foxtrot-384.signals.cofastic.com.",
+    "line": "foxtrot-430.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "foxtrot-430.signals.cofastic.com.",
+    "line": "foxtrot-437.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "foxtrot-437.signals.cofastic.com.",
+    "line": "foxtrot-456.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "foxtrot-456.signals.cofastic.com.",
+    "line": "foxtrot-740.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "foxtrot-740.signals.cofastic.com.",
+    "line": "foxtrot-860.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "foxtrot-860.signals.cofastic.com.",
+    "line": "golf-082.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "golf-082.signals.cofastic.com.",
+    "line": "golf-502.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "golf-502.signals.cofastic.com.",
+    "line": "golf-546.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "golf-546.signals.cofastic.com.",
+    "line": "golf-847.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "golf-847.signals.cofastic.com.",
+    "line": "hotel-304.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "hotel-304.signals.cofastic.com.",
+    "line": "hotel-563.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "hotel-563.signals.cofastic.com.",
+    "line": "india-326.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "india-326.signals.cofastic.com.",
+    "line": "india-542.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "india-542.signals.cofastic.com.",
+    "line": "india-543.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "india-543.signals.cofastic.com.",
+    "line": "india-591.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "india-591.signals.cofastic.com.",
+    "line": "india-599.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "india-599.signals.cofastic.com.",
+    "line": "india-813.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "india-813.signals.cofastic.com.",
+    "line": "kilo-115.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "kilo-115.signals.cofastic.com.",
+    "line": "kilo-562.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "kilo-562.signals.cofastic.com.",
+    "line": "kilo-722.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "kilo-722.signals.cofastic.com.",
+    "line": "kilo-790.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "kilo-790.signals.cofastic.com.",
+    "line": "kilo-792.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "kilo-792.signals.cofastic.com.",
+    "line": "lima-217.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "lima-217.signals.cofastic.com.",
+    "line": "lima-491.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "lima-491.signals.cofastic.com.",
+    "line": "lima-754.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "lima-754.signals.cofastic.com.",
+    "line": "lima-796.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "lima-796.signals.cofastic.com.",
+    "line": "lima-976.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "lima-976.signals.cofastic.com.",
+    "line": "listening-post.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "listening-post.signals.cofastic.com.",
+    "line": "mike-189.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "mike-189.signals.cofastic.com.",
+    "line": "mike-287.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "mike-287.signals.cofastic.com.",
+    "line": "mike-349.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "mike-349.signals.cofastic.com.",
+    "line": "mike-370.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "mike-370.signals.cofastic.com.",
+    "line": "mike-554.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "mike-554.signals.cofastic.com.",
+    "line": "mike-733.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "mike-733.signals.cofastic.com.",
+    "line": "november-351.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "november-351.signals.cofastic.com.",
+    "line": "november-568.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "november-568.signals.cofastic.com.",
+    "line": "november-632.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "november-632.signals.cofastic.com.",
+    "line": "november-635.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "november-635.signals.cofastic.com.",
+    "line": "november-670.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "november-670.signals.cofastic.com.",
+    "line": "ns1.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "ns1.signals.cofastic.com.",
+    "line": "oscar-510.signals.cofastic.com. A RRSIG NSEC"
+  },
+  {
+    "name": "oscar-510.signals.cofastic.com.",
+    "line": "oscar-576.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "oscar-576.signals.cofastic.com.",
+    "line": "oscar-797.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "oscar-797.signals.cofastic.com.",
+    "line": "oscar-931.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "oscar-931.signals.cofastic.com.",
+    "line": "outpost-zulu.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "outpost-zulu.signals.cofastic.com.",
+    "line": "papa-046.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "papa-046.signals.cofastic.com.",
+    "line": "papa-607.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "papa-607.signals.cofastic.com.",
+    "line": "quebec-045.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "quebec-045.signals.cofastic.com.",
+    "line": "quebec-539.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "quebec-539.signals.cofastic.com.",
+    "line": "quebec-555.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "quebec-555.signals.cofastic.com.",
+    "line": "quebec-622.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "quebec-622.signals.cofastic.com.",
+    "line": "quebec-887.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "quebec-887.signals.cofastic.com.",
+    "line": "relay-000.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "relay-000.signals.cofastic.com.",
+    "line": "relay-001.signals.cofastic.com. AAAA SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-001.signals.cofastic.com.",
+    "line": "relay-002.signals.cofastic.com. MX AAAA SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-002.signals.cofastic.com.",
+    "line": "relay-003.signals.cofastic.com. HINFO MX AAAA SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-003.signals.cofastic.com.",
+    "line": "relay-004.signals.cofastic.com. MX TXT AAAA SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-004.signals.cofastic.com.",
+    "line": "relay-005.signals.cofastic.com. MX AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-005.signals.cofastic.com.",
+    "line": "relay-006.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-006.signals.cofastic.com.",
+    "line": "relay-007.signals.cofastic.com. HINFO TXT AAAA LOC RRSIG NSEC"
+  },
+  {
+    "name": "relay-007.signals.cofastic.com.",
+    "line": "relay-008.signals.cofastic.com. MX AAAA SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-008.signals.cofastic.com.",
+    "line": "relay-009.signals.cofastic.com. MX TXT AAAA LOC RRSIG NSEC"
+  },
+  {
+    "name": "relay-009.signals.cofastic.com.",
+    "line": "relay-010.signals.cofastic.com. HINFO MX AAAA LOC SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-010.signals.cofastic.com.",
+    "line": "relay-011.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-011.signals.cofastic.com.",
+    "line": "relay-012.signals.cofastic.com. TXT AAAA LOC RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-012.signals.cofastic.com.",
+    "line": "relay-013.signals.cofastic.com. MX AAAA SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-013.signals.cofastic.com.",
+    "line": "relay-014.signals.cofastic.com. MX TXT AAAA LOC SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-014.signals.cofastic.com.",
+    "line": "relay-015.signals.cofastic.com. MX AAAA SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-015.signals.cofastic.com.",
+    "line": "relay-016.signals.cofastic.com. HINFO MX AAAA LOC SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-016.signals.cofastic.com.",
+    "line": "relay-017.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-017.signals.cofastic.com.",
+    "line": "relay-018.signals.cofastic.com. AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-018.signals.cofastic.com.",
+    "line": "relay-019.signals.cofastic.com. HINFO MX AAAA SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-019.signals.cofastic.com.",
+    "line": "relay-020.signals.cofastic.com. MX AAAA LOC SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-020.signals.cofastic.com.",
+    "line": "relay-021.signals.cofastic.com. MX AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-021.signals.cofastic.com.",
+    "line": "relay-022.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-022.signals.cofastic.com.",
+    "line": "relay-023.signals.cofastic.com. AAAA LOC SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-023.signals.cofastic.com.",
+    "line": "relay-024.signals.cofastic.com. HINFO MX AAAA LOC SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-024.signals.cofastic.com.",
+    "line": "relay-025.signals.cofastic.com. HINFO MX TXT AAAA RRSIG NSEC"
+  },
+  {
+    "name": "relay-025.signals.cofastic.com.",
+    "line": "relay-026.signals.cofastic.com. MX TXT AAAA SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-026.signals.cofastic.com.",
+    "line": "relay-027.signals.cofastic.com. MX TXT AAAA LOC RRSIG NSEC"
+  },
+  {
+    "name": "relay-027.signals.cofastic.com.",
+    "line": "relay-028.signals.cofastic.com. HINFO MX AAAA LOC SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-028.signals.cofastic.com.",
+    "line": "relay-029.signals.cofastic.com. MX TXT AAAA SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-029.signals.cofastic.com.",
+    "line": "relay-030.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-030.signals.cofastic.com.",
+    "line": "relay-031.signals.cofastic.com. HINFO AAAA LOC SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-031.signals.cofastic.com.",
+    "line": "relay-032.signals.cofastic.com. HINFO MX AAAA LOC SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-032.signals.cofastic.com.",
+    "line": "relay-033.signals.cofastic.com. MX AAAA SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-033.signals.cofastic.com.",
+    "line": "relay-034.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-034.signals.cofastic.com.",
+    "line": "relay-035.signals.cofastic.com. AAAA LOC SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-035.signals.cofastic.com.",
+    "line": "relay-036.signals.cofastic.com. HINFO MX AAAA LOC SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-036.signals.cofastic.com.",
+    "line": "relay-037.signals.cofastic.com. MX TXT AAAA SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-037.signals.cofastic.com.",
+    "line": "relay-038.signals.cofastic.com. MX TXT AAAA LOC RRSIG NSEC"
+  },
+  {
+    "name": "relay-038.signals.cofastic.com.",
+    "line": "relay-039.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-039.signals.cofastic.com.",
+    "line": "relay-040.signals.cofastic.com. HINFO AAAA LOC SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-040.signals.cofastic.com.",
+    "line": "relay-041.signals.cofastic.com. HINFO MX AAAA LOC SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-041.signals.cofastic.com.",
+    "line": "relay-042.signals.cofastic.com. MX AAAA SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-042.signals.cofastic.com.",
+    "line": "relay-043.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-043.signals.cofastic.com.",
+    "line": "relay-044.signals.cofastic.com. AAAA SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-044.signals.cofastic.com.",
+    "line": "relay-045.signals.cofastic.com. MX AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-045.signals.cofastic.com.",
+    "line": "relay-046.signals.cofastic.com. MX TXT AAAA LOC RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-046.signals.cofastic.com.",
+    "line": "relay-047.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC"
+  },
+  {
+    "name": "relay-047.signals.cofastic.com.",
+    "line": "relay-048.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-048.signals.cofastic.com.",
+    "line": "relay-049.signals.cofastic.com. AAAA SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-049.signals.cofastic.com.",
+    "line": "relay-050.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-050.signals.cofastic.com.",
+    "line": "relay-051.signals.cofastic.com. MX AAAA LOC SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-051.signals.cofastic.com.",
+    "line": "relay-052.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC"
+  },
+  {
+    "name": "relay-052.signals.cofastic.com.",
+    "line": "relay-053.signals.cofastic.com. MX TXT AAAA SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-053.signals.cofastic.com.",
+    "line": "relay-054.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-054.signals.cofastic.com.",
+    "line": "relay-055.signals.cofastic.com. AAAA SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-055.signals.cofastic.com.",
+    "line": "relay-056.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-056.signals.cofastic.com.",
+    "line": "relay-057.signals.cofastic.com. MX AAAA LOC SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-057.signals.cofastic.com.",
+    "line": "relay-058.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC"
+  },
+  {
+    "name": "relay-058.signals.cofastic.com.",
+    "line": "relay-059.signals.cofastic.com. MX TXT AAAA SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-059.signals.cofastic.com.",
+    "line": "relay-060.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-060.signals.cofastic.com.",
+    "line": "relay-061.signals.cofastic.com. TXT AAAA SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-061.signals.cofastic.com.",
+    "line": "relay-062.signals.cofastic.com. MX TXT AAAA LOC SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-062.signals.cofastic.com.",
+    "line": "relay-063.signals.cofastic.com. HINFO MX AAAA LOC SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-063.signals.cofastic.com.",
+    "line": "relay-064.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-064.signals.cofastic.com.",
+    "line": "relay-065.signals.cofastic.com. AAAA LOC SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-065.signals.cofastic.com.",
+    "line": "relay-066.signals.cofastic.com. HINFO MX AAAA LOC SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-066.signals.cofastic.com.",
+    "line": "relay-067.signals.cofastic.com. HINFO MX TXT AAAA RRSIG NSEC"
+  },
+  {
+    "name": "relay-067.signals.cofastic.com.",
+    "line": "relay-068.signals.cofastic.com. MX TXT AAAA SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-068.signals.cofastic.com.",
+    "line": "relay-069.signals.cofastic.com. MX TXT AAAA LOC RRSIG NSEC"
+  },
+  {
+    "name": "relay-069.signals.cofastic.com.",
+    "line": "relay-070.signals.cofastic.com. HINFO MX AAAA LOC SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-070.signals.cofastic.com.",
+    "line": "relay-071.signals.cofastic.com. MX TXT AAAA SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-071.signals.cofastic.com.",
+    "line": "relay-072.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-072.signals.cofastic.com.",
+    "line": "relay-073.signals.cofastic.com. AAAA SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-073.signals.cofastic.com.",
+    "line": "relay-074.signals.cofastic.com. MX AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-074.signals.cofastic.com.",
+    "line": "relay-075.signals.cofastic.com. MX TXT AAAA LOC RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-075.signals.cofastic.com.",
+    "line": "relay-076.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC"
+  },
+  {
+    "name": "relay-076.signals.cofastic.com.",
+    "line": "relay-077.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-077.signals.cofastic.com.",
+    "line": "relay-078.signals.cofastic.com. AAAA LOC SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-078.signals.cofastic.com.",
+    "line": "relay-079.signals.cofastic.com. HINFO MX AAAA LOC SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-079.signals.cofastic.com.",
+    "line": "relay-080.signals.cofastic.com. MX TXT AAAA SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-080.signals.cofastic.com.",
+    "line": "relay-081.signals.cofastic.com. MX TXT AAAA LOC RRSIG NSEC"
+  },
+  {
+    "name": "relay-081.signals.cofastic.com.",
+    "line": "relay-082.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-082.signals.cofastic.com.",
+    "line": "relay-083.signals.cofastic.com. TXT AAAA SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-083.signals.cofastic.com.",
+    "line": "relay-084.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC"
+  },
+  {
+    "name": "relay-084.signals.cofastic.com.",
+    "line": "relay-085.signals.cofastic.com. MX TXT AAAA LOC RRSIG NSEC"
+  },
+  {
+    "name": "relay-085.signals.cofastic.com.",
+    "line": "relay-086.signals.cofastic.com. MX AAAA SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-086.signals.cofastic.com.",
+    "line": "relay-087.signals.cofastic.com. MX AAAA SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-087.signals.cofastic.com.",
+    "line": "relay-088.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-088.signals.cofastic.com.",
+    "line": "relay-089.signals.cofastic.com. AAAA LOC RRSIG NSEC"
+  },
+  {
+    "name": "relay-089.signals.cofastic.com.",
+    "line": "relay-090.signals.cofastic.com. MX TXT AAAA LOC RRSIG NSEC"
+  },
+  {
+    "name": "relay-090.signals.cofastic.com.",
+    "line": "relay-091.signals.cofastic.com. MX AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-091.signals.cofastic.com.",
+    "line": "relay-092.signals.cofastic.com. MX TXT AAAA LOC SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-092.signals.cofastic.com.",
+    "line": "relay-093.signals.cofastic.com. HINFO MX AAAA LOC SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-093.signals.cofastic.com.",
+    "line": "relay-094.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-094.signals.cofastic.com.",
+    "line": "relay-095.signals.cofastic.com. AAAA LOC RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-095.signals.cofastic.com.",
+    "line": "relay-096.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC"
+  },
+  {
+    "name": "relay-096.signals.cofastic.com.",
+    "line": "relay-097.signals.cofastic.com. MX AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-097.signals.cofastic.com.",
+    "line": "relay-098.signals.cofastic.com. MX TXT AAAA LOC RRSIG NSEC"
+  },
+  {
+    "name": "relay-098.signals.cofastic.com.",
+    "line": "relay-099.signals.cofastic.com. HINFO MX AAAA SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-099.signals.cofastic.com.",
+    "line": "relay-100.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-100.signals.cofastic.com.",
+    "line": "relay-101.signals.cofastic.com. MX AAAA SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-101.signals.cofastic.com.",
+    "line": "relay-102.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-102.signals.cofastic.com.",
+    "line": "relay-103.signals.cofastic.com. AAAA SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-103.signals.cofastic.com.",
+    "line": "relay-104.signals.cofastic.com. MX AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-104.signals.cofastic.com.",
+    "line": "relay-105.signals.cofastic.com. MX TXT AAAA LOC RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-105.signals.cofastic.com.",
+    "line": "relay-106.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC"
+  },
+  {
+    "name": "relay-106.signals.cofastic.com.",
+    "line": "relay-107.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-107.signals.cofastic.com.",
+    "line": "relay-108.signals.cofastic.com. AAAA SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-108.signals.cofastic.com.",
+    "line": "relay-109.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-109.signals.cofastic.com.",
+    "line": "relay-110.signals.cofastic.com. MX AAAA LOC SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-110.signals.cofastic.com.",
+    "line": "relay-111.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC"
+  },
+  {
+    "name": "relay-111.signals.cofastic.com.",
+    "line": "relay-112.signals.cofastic.com. MX TXT AAAA SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-112.signals.cofastic.com.",
+    "line": "relay-113.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-113.signals.cofastic.com.",
+    "line": "relay-114.signals.cofastic.com. AAAA LOC RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-114.signals.cofastic.com.",
+    "line": "relay-115.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC"
+  },
+  {
+    "name": "relay-115.signals.cofastic.com.",
+    "line": "relay-116.signals.cofastic.com. MX AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-116.signals.cofastic.com.",
+    "line": "relay-117.signals.cofastic.com. MX TXT AAAA LOC RRSIG NSEC"
+  },
+  {
+    "name": "relay-117.signals.cofastic.com.",
+    "line": "relay-118.signals.cofastic.com. HINFO MX AAAA SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-118.signals.cofastic.com.",
+    "line": "relay-119.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-119.signals.cofastic.com.",
+    "line": "relay-120.signals.cofastic.com. MX AAAA SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-120.signals.cofastic.com.",
+    "line": "relay-121.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-121.signals.cofastic.com.",
+    "line": "relay-122.signals.cofastic.com. AAAA LOC RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-122.signals.cofastic.com.",
+    "line": "relay-123.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC"
+  },
+  {
+    "name": "relay-123.signals.cofastic.com.",
+    "line": "relay-124.signals.cofastic.com. MX AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-124.signals.cofastic.com.",
+    "line": "relay-125.signals.cofastic.com. MX TXT AAAA LOC RRSIG NSEC"
+  },
+  {
+    "name": "relay-125.signals.cofastic.com.",
+    "line": "relay-126.signals.cofastic.com. HINFO MX AAAA SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-126.signals.cofastic.com.",
+    "line": "relay-127.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-127.signals.cofastic.com.",
+    "line": "relay-128.signals.cofastic.com. MX AAAA SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-128.signals.cofastic.com.",
+    "line": "relay-129.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-129.signals.cofastic.com.",
+    "line": "relay-130.signals.cofastic.com. AAAA LOC SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-130.signals.cofastic.com.",
+    "line": "relay-131.signals.cofastic.com. HINFO MX AAAA LOC SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-131.signals.cofastic.com.",
+    "line": "relay-132.signals.cofastic.com. HINFO MX TXT AAAA RRSIG NSEC"
+  },
+  {
+    "name": "relay-132.signals.cofastic.com.",
+    "line": "relay-133.signals.cofastic.com. MX TXT AAAA SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-133.signals.cofastic.com.",
+    "line": "relay-134.signals.cofastic.com. MX TXT AAAA LOC RRSIG NSEC"
+  },
+  {
+    "name": "relay-134.signals.cofastic.com.",
+    "line": "relay-135.signals.cofastic.com. HINFO MX AAAA LOC SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-135.signals.cofastic.com.",
+    "line": "relay-136.signals.cofastic.com. MX TXT AAAA SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-136.signals.cofastic.com.",
+    "line": "relay-137.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-137.signals.cofastic.com.",
+    "line": "relay-138.signals.cofastic.com. AAAA SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-138.signals.cofastic.com.",
+    "line": "relay-139.signals.cofastic.com. MX AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-139.signals.cofastic.com.",
+    "line": "relay-140.signals.cofastic.com. MX TXT AAAA LOC RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-140.signals.cofastic.com.",
+    "line": "relay-141.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC"
+  },
+  {
+    "name": "relay-141.signals.cofastic.com.",
+    "line": "relay-142.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-142.signals.cofastic.com.",
+    "line": "relay-143.signals.cofastic.com. HINFO TXT AAAA LOC RRSIG NSEC"
+  },
+  {
+    "name": "relay-143.signals.cofastic.com.",
+    "line": "relay-144.signals.cofastic.com. MX AAAA SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-144.signals.cofastic.com.",
+    "line": "relay-145.signals.cofastic.com. MX TXT AAAA LOC RRSIG NSEC"
+  },
+  {
+    "name": "relay-145.signals.cofastic.com.",
+    "line": "relay-146.signals.cofastic.com. HINFO MX AAAA LOC SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-146.signals.cofastic.com.",
+    "line": "relay-147.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-147.signals.cofastic.com.",
+    "line": "relay-148.signals.cofastic.com. AAAA LOC SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-148.signals.cofastic.com.",
+    "line": "relay-149.signals.cofastic.com. HINFO MX AAAA LOC SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-149.signals.cofastic.com.",
+    "line": "relay-150.signals.cofastic.com. MX TXT AAAA SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-150.signals.cofastic.com.",
+    "line": "relay-151.signals.cofastic.com. MX TXT AAAA LOC RRSIG NSEC"
+  },
+  {
+    "name": "relay-151.signals.cofastic.com.",
+    "line": "relay-152.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-152.signals.cofastic.com.",
+    "line": "relay-153.signals.cofastic.com. AAAA LOC RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-153.signals.cofastic.com.",
+    "line": "relay-154.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC"
+  },
+  {
+    "name": "relay-154.signals.cofastic.com.",
+    "line": "relay-155.signals.cofastic.com. MX AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-155.signals.cofastic.com.",
+    "line": "relay-156.signals.cofastic.com. MX TXT AAAA LOC RRSIG NSEC"
+  },
+  {
+    "name": "relay-156.signals.cofastic.com.",
+    "line": "relay-157.signals.cofastic.com. HINFO MX AAAA SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-157.signals.cofastic.com.",
+    "line": "relay-158.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-158.signals.cofastic.com.",
+    "line": "relay-159.signals.cofastic.com. MX AAAA SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-159.signals.cofastic.com.",
+    "line": "relay-160.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-160.signals.cofastic.com.",
+    "line": "relay-161.signals.cofastic.com. AAAA LOC RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-161.signals.cofastic.com.",
+    "line": "relay-162.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC"
+  },
+  {
+    "name": "relay-162.signals.cofastic.com.",
+    "line": "relay-163.signals.cofastic.com. MX AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-163.signals.cofastic.com.",
+    "line": "relay-164.signals.cofastic.com. MX TXT AAAA LOC RRSIG NSEC"
+  },
+  {
+    "name": "relay-164.signals.cofastic.com.",
+    "line": "relay-165.signals.cofastic.com. HINFO MX AAAA SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-165.signals.cofastic.com.",
+    "line": "relay-166.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-166.signals.cofastic.com.",
+    "line": "relay-167.signals.cofastic.com. MX AAAA SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-167.signals.cofastic.com.",
+    "line": "relay-168.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-168.signals.cofastic.com.",
+    "line": "relay-169.signals.cofastic.com. TXT AAAA LOC RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-169.signals.cofastic.com.",
+    "line": "relay-170.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-170.signals.cofastic.com.",
+    "line": "relay-171.signals.cofastic.com. HINFO MX TXT AAAA RRSIG NSEC"
+  },
+  {
+    "name": "relay-171.signals.cofastic.com.",
+    "line": "relay-172.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-172.signals.cofastic.com.",
+    "line": "relay-173.signals.cofastic.com. AAAA LOC SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-173.signals.cofastic.com.",
+    "line": "relay-174.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-174.signals.cofastic.com.",
+    "line": "relay-175.signals.cofastic.com. MX TXT AAAA LOC SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-175.signals.cofastic.com.",
+    "line": "relay-176.signals.cofastic.com. MX AAAA SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-176.signals.cofastic.com.",
+    "line": "relay-177.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-177.signals.cofastic.com.",
+    "line": "relay-178.signals.cofastic.com. HINFO AAAA LOC SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-178.signals.cofastic.com.",
+    "line": "relay-179.signals.cofastic.com. HINFO MX AAAA LOC SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-179.signals.cofastic.com.",
+    "line": "relay-180.signals.cofastic.com. MX AAAA SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-180.signals.cofastic.com.",
+    "line": "relay-181.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-181.signals.cofastic.com.",
+    "line": "relay-182.signals.cofastic.com. AAAA SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-182.signals.cofastic.com.",
+    "line": "relay-183.signals.cofastic.com. MX AAAA LOC RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-183.signals.cofastic.com.",
+    "line": "relay-184.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC"
+  },
+  {
+    "name": "relay-184.signals.cofastic.com.",
+    "line": "relay-185.signals.cofastic.com. HINFO MX AAAA LOC SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-185.signals.cofastic.com.",
+    "line": "relay-186.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-186.signals.cofastic.com.",
+    "line": "relay-187.signals.cofastic.com. AAAA LOC RRSIG NSEC"
+  },
+  {
+    "name": "relay-187.signals.cofastic.com.",
+    "line": "relay-188.signals.cofastic.com. MX TXT AAAA LOC RRSIG NSEC"
+  },
+  {
+    "name": "relay-188.signals.cofastic.com.",
+    "line": "relay-189.signals.cofastic.com. MX AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-189.signals.cofastic.com.",
+    "line": "relay-190.signals.cofastic.com. MX TXT AAAA LOC SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-190.signals.cofastic.com.",
+    "line": "relay-191.signals.cofastic.com. HINFO MX AAAA LOC SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-191.signals.cofastic.com.",
+    "line": "relay-192.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-192.signals.cofastic.com.",
+    "line": "relay-193.signals.cofastic.com. HINFO AAAA LOC SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-193.signals.cofastic.com.",
+    "line": "relay-194.signals.cofastic.com. HINFO MX AAAA LOC SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-194.signals.cofastic.com.",
+    "line": "relay-195.signals.cofastic.com. MX AAAA SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-195.signals.cofastic.com.",
+    "line": "relay-196.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-196.signals.cofastic.com.",
+    "line": "relay-197.signals.cofastic.com. AAAA LOC SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-197.signals.cofastic.com.",
+    "line": "relay-198.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-198.signals.cofastic.com.",
+    "line": "relay-199.signals.cofastic.com. MX TXT AAAA LOC SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-199.signals.cofastic.com.",
+    "line": "relay-200.signals.cofastic.com. MX AAAA SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-200.signals.cofastic.com.",
+    "line": "relay-201.signals.cofastic.com. MX RRSIG NSEC"
+  },
+  {
+    "name": "relay-201.signals.cofastic.com.",
+    "line": "relay-202.signals.cofastic.com. AAAA LOC RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-202.signals.cofastic.com.",
+    "line": "relay-203.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC"
+  },
+  {
+    "name": "relay-203.signals.cofastic.com.",
+    "line": "relay-204.signals.cofastic.com. MX AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-204.signals.cofastic.com.",
+    "line": "relay-205.signals.cofastic.com. MX TXT AAAA LOC RRSIG NSEC"
+  },
+  {
+    "name": "relay-205.signals.cofastic.com.",
+    "line": "relay-206.signals.cofastic.com. HINFO MX AAAA SRV RRSIG NSEC"
+  },
+  {
+    "name": "relay-206.signals.cofastic.com.",
+    "line": "relay-207.signals.cofastic.com. HINFO MX AAAA RRSIG NSEC CAA"
+  },
+  {
+    "name": "relay-207.signals.cofastic.com.",
+    "line": "romeo-921.signals.cofastic.com. MX AAAA SRV RRSIG NSEC CAA"
+  },
+  {
+    "name": "romeo-921.signals.cofastic.com.",
+    "line": "sierra-098.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "sierra-098.signals.cofastic.com.",
+    "line": "sierra-201.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "sierra-201.signals.cofastic.com.",
+    "line": "sierra-387.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "sierra-387.signals.cofastic.com.",
+    "line": "sierra-478.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "sierra-478.signals.cofastic.com.",
+    "line": "sierra-548.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "sierra-548.signals.cofastic.com.",
+    "line": "sierra-654.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "sierra-654.signals.cofastic.com.",
+    "line": "sierra-835.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "sierra-835.signals.cofastic.com.",
+    "line": "sierra-997.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "sierra-997.signals.cofastic.com.",
+    "line": "tango-081.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "tango-081.signals.cofastic.com.",
+    "line": "tango-173.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "tango-173.signals.cofastic.com.",
+    "line": "tango-306.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "tango-306.signals.cofastic.com.",
+    "line": "tango-957.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "tango-957.signals.cofastic.com.",
+    "line": "uniform-072.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "uniform-072.signals.cofastic.com.",
+    "line": "uniform-219.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "uniform-219.signals.cofastic.com.",
+    "line": "uniform-302.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "uniform-302.signals.cofastic.com.",
+    "line": "uniform-419.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "uniform-419.signals.cofastic.com.",
+    "line": "uniform-420.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "uniform-420.signals.cofastic.com.",
+    "line": "uniform-575.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "uniform-575.signals.cofastic.com.",
+    "line": "uniform-658.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "uniform-658.signals.cofastic.com.",
+    "line": "uniform-738.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "uniform-738.signals.cofastic.com.",
+    "line": "victor-036.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "victor-036.signals.cofastic.com.",
+    "line": "victor-162.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "victor-162.signals.cofastic.com.",
+    "line": "victor-307.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "victor-307.signals.cofastic.com.",
+    "line": "victor-480.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "victor-480.signals.cofastic.com.",
+    "line": "victor-753.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "victor-753.signals.cofastic.com.",
+    "line": "victor-831.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "victor-831.signals.cofastic.com.",
+    "line": "victor-889.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "victor-889.signals.cofastic.com.",
+    "line": "whiskey-360.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "whiskey-360.signals.cofastic.com.",
+    "line": "whiskey-396.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "whiskey-396.signals.cofastic.com.",
+    "line": "xray-106.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "xray-106.signals.cofastic.com.",
+    "line": "xray-335.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "xray-335.signals.cofastic.com.",
+    "line": "xray-488.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "xray-488.signals.cofastic.com.",
+    "line": "xray-555.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "xray-555.signals.cofastic.com.",
+    "line": "yankee-206.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "yankee-206.signals.cofastic.com.",
+    "line": "yankee-225.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "yankee-225.signals.cofastic.com.",
+    "line": "yankee-330.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "yankee-330.signals.cofastic.com.",
+    "line": "yankee-570.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "yankee-570.signals.cofastic.com.",
+    "line": "yankee-943.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "yankee-943.signals.cofastic.com.",
+    "line": "zulu-106.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "zulu-106.signals.cofastic.com.",
+    "line": "zulu-637.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "zulu-637.signals.cofastic.com.",
+    "line": "zulu-709.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "zulu-709.signals.cofastic.com.",
+    "line": "zulu-895.signals.cofastic.com. TXT RRSIG NSEC"
+  },
+  {
+    "name": "zulu-895.signals.cofastic.com.",
+    "line": "signals.cofastic.com. TXT RRSIG NSEC"
+  }
+]
