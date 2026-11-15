@@ -23,7 +23,7 @@ Use the provided files to answer these questions:
     During the incident, two outbound data transfers were attempted from PROD-WEB01. What is the SHA-256 hash of the archive associated with the rejected transfer? Submit the complete 64-character hexadecimal hash.
     A ransomware artifact was staged on the filesystem. What was the Process ID (PID) of the process that executed the staging operation? Submit the PID only.
 
-Combine each flag to follow this format: IBOH26{redacted}
+Combine each flag to follow this format: IBOH26{flag1_flag2_flag3_flagX}
 
 ## Approach
 

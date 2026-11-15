@@ -178,5 +178,5 @@ ibohweb
 Final flag:
 
 ```text
-IBOH26{redacted}
+IBOH26{198.51.100.10_ibohweb_4_/usr/bin/psql_6232b75fd3a1c97b1819c0fb9406a3d6677924186c28de3d0004b25c4675f4c4_2151}
 ```
