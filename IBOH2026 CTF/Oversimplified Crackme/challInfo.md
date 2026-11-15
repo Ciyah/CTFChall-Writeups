@@ -413,7 +413,7 @@ Click **Gimme Flag** and allow the checks to finish.
 During this solve, final verification used the native harness executing the unpacked checker and its flag-decryption logic. The captured result was:
 
 ```text
-CHECK 1 OUTPUT IBOH26{redacted}
+CHECK 1 OUTPUT IBOH26{14bb7797-9830-479e-9d28-56b072f32dc5}
 ```
 
 The final inputs were not entered into the Wine GUI during this session. The successful native checker output is saved in `solve_artifacts/final_verification.txt`.
@@ -436,5 +436,5 @@ Verify the primitive before committing to a brute-force search, and validate rec
 ## Flag
 
 ```text
-IBOH26{redacted}
+IBOH26{14bb7797-9830-479e-9d28-56b072f32dc5}
 ```
