@@ -1,0 +1,19 @@
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 1 password hash
+0:00:00:00 Cost 1 (iteration count) is 32768 for all loaded hashes
+0:00:00:00 Command line: john --session=unknown2-love --wordlist=love-candidates.txt unknown2.hash 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: RAR5 (min-len 0, max-len 10 [worst case UTF-8] to 32 [ASCII])
+0:00:00:00 - Algorithm: PBKDF2-SHA256 256/256 AVX2 8x
+0:00:00:00 - Will reject candidates longer than 32 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 64
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: love-candidates.txt
+0:00:00:00 - Memory mapping wordlist (2427263 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:10:51 + Cracked Unknown2.rar
+0:00:10:51 Passwords tested: 205568 (all time)
+0:00:10:51  dupe suppressor: 0 accepted, 0 rejected out of total 0 (while active during this run)
+0:00:10:51 Session completed
